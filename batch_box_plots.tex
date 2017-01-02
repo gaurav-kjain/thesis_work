@@ -1,0 +1,51 @@
+\begin{figure}[H]
+	\hspace{-1cm}
+	\begin{tabular}{C{.5\textwidth}C{.5\textwidth}}%
+		\subfigure [\boxerr] {
+			\begin{tikzpicture} %
+			\begin{axis}[%
+			xlabel={\textit{batch size [in multiple of classes]}}, %
+			ylabel={\textit{error}}, %
+			boxplot/draw direction=y,%
+			xtick={1,2,3,4,5,6,7,8,9},%
+			xticklabels={2, 4, 6, 8, 10, 12, 14,16,18},%
+			height=5cm,%
+			width=7cm,%
+			] %
+			
+			\addplot+ [boxplot,fill=green!20!white] table [x expr=2,y ={val_loss}] {\dnwtwoptinit};
+			\addplot+ [boxplot,fill=orange!20!white] table [x expr=4,y ={val_loss}] {\dnwfooptinit};		
+			\addplot+ [boxplot,fill=violet!10!white] table [x expr=6,y ={val_loss}] {\dnwsxoptinit};					
+			\addplot+ [boxplot,fill=pink!10!white] table [x expr=8,y ={val_loss}]  {\dnwegoptinit};						
+			\addplot+ [boxplot,fill=green!10!white] table [x expr=10,y ={val_loss}] {\dnwhnoptinit};
+			\addplot+ [boxplot,fill=orange!10!white] table [x expr=12,y ={val_loss}]  {\dnwhntwoptinit};						
+			\addplot+ [boxplot,fill=brown!10!white] table [x expr=14,y ={val_loss}] {\dnwhnfooptinit};					
+			\addplot+ [boxplot,fill=gray!10!white] table [x expr=16,y ={val_loss}] {\dnwhnsxoptinit};
+			\addplot+ [boxplot,fill=cyan!10!white] table [x expr=18,y ={val_loss}] {\dnwhnegoptinit};							
+			\end{axis} %
+			\end{tikzpicture}
+		}&
+		\subfigure [\boxacc] {
+			\begin{tikzpicture} %
+			\begin{axis}[%
+			boxplot/draw direction=y,%
+			xtick={1,2,3,4,5,6,7,8,9},%
+			xticklabels={2, 4, 6, 8, 10, 12, 14,16,18},%
+			xlabel={\textit{batch size [in multiple of classes]}}, %
+			ylabel={\textit{accuracy}}, %
+			] %
+			\addplot+ [boxplot,fill=green!20!white] table [x expr=2,y ={val_acc}] {\dnwtwoptinit};%
+			\addplot+ [boxplot,fill=orange!20!white] table [x expr=4,y ={val_acc}] {\dnwfooptinit};%		
+			\addplot+ [boxplot,fill=violet!10!white] table [x expr=6,y ={val_acc}] {\dnwsxoptinit};%				
+			\addplot+ [boxplot,fill=pink!10!white] table [x expr=8,y ={val_acc}]  {\dnwegoptinit};%					
+			\addplot+ [boxplot,fill=green!10!white] table [x expr=10,y ={val_acc}] {\dnwhnoptinit};%
+			\addplot+ [boxplot,fill=orange!10!white] table [x expr=12,y ={val_acc}]  {\dnwhntwoptinit};%						
+			\addplot+ [boxplot,fill=brown!10!white] table [x expr=14,y ={val_acc}] {\dnwhnfooptinit};%					
+			\addplot+ [boxplot,fill=gray!10!white] table [x expr=16,y ={val_acc}] {\dnwhnsxoptinit};%
+			\addplot+ [boxplot,fill=cyan!10!white] table [x expr=18,y ={val_acc}] {\dnwhnegoptinit};%											
+			\end{axis}%
+			\end{tikzpicture}
+		}
+	\end{tabular}
+	\caption {\textit{\boxerracccaption}}
+\end{figure}

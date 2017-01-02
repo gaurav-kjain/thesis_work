@@ -1,0 +1,170 @@
+% chap3.tex
+
+\chapter{Hyper-Parameters}\label{chap:hyperparams}
+\noindent This chapter introduces hyper-parameters. They are not directly related to the machine learning algorithm parameters, but responsible for overall algorithm evolution. For example learning rate dictates the update strength per iteration, choice of initializer can lead to slow or fast convergence, choice of optimizers provide way to update learning parameters($\theta$).
+
+\noindent Other than direct algorithm parameters, we will consider everything else as hyper-parameter. Mainly we will consider following hyper-parameters, which we will discuss and explain the experiments performed with different choices of these parameters and their effect in overall convergence.
+
+\begin{enumerate}
+	\item \textbf{Initializer}
+	\item \textbf{Optimizer}
+	\item \textbf{Batch size}
+	\item \textbf{Total parameters}
+	\item \textbf{Number of Epochs}
+\end{enumerate}
+
+\section{Initializer}
+
+\noindent Initial network condition is described as \textit{"At birth the construction of the most important networks is largely random, subject to a minimum number of constraints"} in \cite{Rosenblatt58theperceptron:} suggests that random initializations can be used to initialize network parameters and constraints could be range of these parameters.
+
+\noindent \textbf{Uniform initialization}, assigns initial weights from $U[-r,\; r]$, where $U$ is uniform distribution, Mostly $r$ is used as small value $\sim0.1$. Another random initialization scheme is \textbf{Normal Initialization}, based on sampling initial weights from normal distribution, $N(0,1)$. These are simple methods which are getting used.
+
+\noindent \textbf{Uniform initialization using fan in} \cite{LeCun:1998:EB:645754.668382} suggests, using fan-in to determine standard deviation $\sigma_i$ and sampling initial weights from $N(0,\sigma_l)$. value of $\sigma_l$ is dependent on fan-in, which is number of inputs to a hidden unit. It is suggested to be chosen as per \ref{eq:le_uni}
+\begin{equation}\label{eq:le_uni}
+	\sigma_l=\textbf{m}^{-1/2}, where, \; \textbf{m} \; is \; the \; fan \; in
+\end{equation}
+
+\noindent \textbf{Normalized initialization} \cite{Glorot10understandingthe} suggest to use uniform weight initialization as per \ref{eq:gl_normal}
+\begin{equation}\label{eq:gl_normal}
+U[-\frac{{\sqrt{6}}}{{\sqrt{n_l+n_{l+1}}}}, \frac{{\sqrt{6}}}{{\sqrt{n_l+n_{l+1}}}}]
+\end{equation}
+where $n_l$ and $n_{l+1}$ are total number of units in $l^{th}$ and ${(l+1)}^{th}$ hidden layer respectively. This work on paradigm of maintaining activation variances in feed forward direction and back propagated gradient variances in both the directions.
+
+\noindent For very deep models and to support activation ReLU/PReLU \cite{DBLP:journals/corr/HeZR015} suggests to use slight modification in considering the variance from \cite{Glorot10understandingthe} and the \textbf{initialization scheme becomes zero-mean Gaussian with standard deviation as $\sqrt{2/n_l}$}, where $n_l$ is number of hidden units in $l^{th}$ layer.
+
+\noindent \textbf{Orthogonal random initializations} \cite{DBLP:journals/corr/SaxeMG13} suggests simple initialization scheme where in initial weights are chosen from the random orthogonal matrix satisfying $W^TW=I$. This yield depth independent learning times, which means as depth increases learning time remains same as oppose to suggested initializations in \cite{LeCun:1998:EB:645754.668382} \cite{Glorot10understandingthe} 
+
+\input{initializers_results.tex}
+
+
+\section{Optimizers}
+
+\noindent Optimizers are main learning algorithm or routine which is responsible for changes in the network as and when update takes place. The updates are not limited to parameters update alone, even hyperparameters can also get updated as per underlying optimizer routines. 
+
+\noindent Here we will discuss different optimizers, mainly gradient/sub gradient methods,their analysis and effect from experimental results. Detailed survey of these methods can be found at \cite{DBLP:journals/corr/Ruder16} and \cite{nadam_}
+
+
+\noindent \textbf{GD(Gradient descent)} is one of the important and robust optimization algorithm. The gradient of the function  to be optimized is computed with respect to the parameters. In deep learning setting the function to be optimized usually is loss function $\mathcal{L}$ and parameters are $\theta_t$ at $t^{th}$ iteration. The gradient of $\mathcal{L}$ with respect to $\theta$ is denoted as $\nabla_{\theta_{t-1}}\mathcal{L}(\theta_{t-1})$, which gets computed at $(t-1)$ iteration and $\theta_t$ is updated as per \ref{eq:gd_up}
+\begin{equation}\label{eq:gd_up}
+\theta_{t} = {\theta_{t-1}} -\eta (\nabla_{\theta_{t-1}}\mathcal{L}(\theta_{t-1})),\\ %TBD:to represent this in simple notations form
+{\scriptstyle where \; \eta \; is \; known \; as \; learning \; rate}
+\end{equation}
+
+
+\noindent In deep learning due to large training size gradient descent, also known as \textbf{batch learning} is almost impossible. So for large scale learning reduced size is considered and network parameters are updated, this batch will not be used till new repetition of dataset starts. This repetition is known as an \textbf{epoch}. The size of batch used in one single update is known as \textbf{minibatch}.
+The minibatch and epochs are considered later in this chapter. We will see batch learning in chapter \ref{chap:training}.
+
+\noindent The strategy to update network parameters after every $minibatch \; size= 1$ is known as \textbf{SGD (Stochastic Gradient Descent)}, which is also known as online learning. 
+Commonly $minibatch \; size \; \gg \; 1$ is used in deep learning with large datasets. We will use SGD for minibatch or online learning. 
+
+\noindent \ref{eq:gd_up} is applicable as it is to SGD also, only difference is computation of loss gradient is restricted to the current minibatch instead of full training dataset. We will discuss its details in chapter \ref{chap:training}.
+Another optimizers explained ahead are variants of SGD, which is essentially differs in the way network parameters get adjusted as learning progresses.  
+
+\noindent \textbf{Classical Momentum}\cite{POLYAK19641} remembers previous gradient update vector and fraction of it is added to the next parameter update. The momentum term is computed as per \ref{eq:momentum} and update takes place as per \ref{eq:moment_up}. 
+
+\begin{equation}\label{eq:momentum}
+\begin{aligned}
+m_t = \mu m_{t-1}+\nabla_{\theta_{t-1}}\mathcal{L}(\theta_{t-1}),
+\end{aligned}
+\end{equation} 
+\begin{equation}\label{eq:moment_up}
+\begin{aligned}
+\theta_t=\theta_{t-1} - \eta m_t\\
+{\scriptstyle where \; \mu \; is \; known \; as \; momentum \; term}
+\end{aligned}
+\end{equation}
+
+\noindent \textbf{NAG (Nesterov accelerated gradient)} is accelerated gradient descent which converges faster than classical momentum or SGD. The gradient is calculated on possible future update without using gradient and then using it to update network parameter. Acceleration is achieved as it can be seen as looking into future as this can prevent slows gradient update to move uphill and accelerate if it is moving downhill. The updates are calculated as per \ref{eq:nag_up}
+
+
+\begin{equation}\label{eq:nag_up}
+\begin{aligned}
+m_t = \mu m_{t-1}+\eta\nabla_{\theta_{t-1}}\mathcal{L}(\theta_{t-1}-\mu m_{t-1}) \\
+\theta_t=\theta_{t-1} - m_t
+\end{aligned}
+\end{equation} 
+
+\noindent\textbf{Adagrad (Adaptive subgradient descent)} \cite{Duchi:2011:ASM:1953048.2021068} adapts the learning rate as per the parameters updates. So this optimizer adjusts learning rate hyper parameter and falls under category where it updates parameters as well as hyper parameters. Basic premise of Adagrad is to have larger updates for less frequent parameters and smaller updates for frequent ones.
+
+%This could also be seen as controlling the overfitting to certain patterns which are governed by set of frequent parameters.handle class imbalance problem [WRITE IN RECOMMENDATIONS: TBD]
+\noindent The updated learning rate for each parameter thus varies based on their earlier gradient updates individually. The updates take place as per \ref{eq:adagrad}
+
+\begin{equation}\label{eq:adagrad}
+\begin{aligned}
+n_t=n_{t-1}+(\nabla_{\theta_{t-1}}\mathcal{L}(\theta_{t-1}))^2\\
+\theta_t=\theta_{t-1} - \eta \frac{\nabla_{\theta_{t-1}}\mathcal{L}(\theta_{t-1})}{\sqrt{n_t+\epsilon}}
+\end{aligned}
+\end{equation}
+
+\noindent \textbf{Adadelta}\cite{adadelta} counters the effect of increasing norm $n_t$ of Adagrad as that can reduce learning rate monotonically, which can be easily seen in \ref{eq:adagrad}, where $n_t$ increases as iteration progresses. Adadelta restricts the size of gradients which get accumulated to a sliding window of fixed size. The sum of gradients are maintained as running average $E[g^2]_t$ of previous gradient average squared $E[g^2]_{t-1}$  and current gradient ${g_t}$ squared as per \ref{eq:adadelta_average}
+
+\begin{equation}\label{eq:adadelta_average}
+E[g^2]_t=\rho E[g^2]_{t-1}+(1-\rho){g_t}^2, where \; \rho \; is \; a \; decay \; constant
+\end{equation}
+
+\noindent Other than maintaining the running average of gradients sqaured, running average $E[\nabla\theta^2]$  of previous parameter updates squared are also maintained and this is compute in similar way of running average gradient computation of \ref{eq:adadelta_average}. It is given in \ref{eq:adadelta_avg_param}
+
+\begin{equation}\label{eq:adadelta_avg_param}
+\begin{aligned}
+\nabla\theta_{t}=-g_{t}\frac{\sqrt{E[\theta^2]_{t-1}+\epsilon}}{\sqrt{E[g^2]_{t}+\epsilon}}\\
+E[\nabla\theta^2]_t=\rho E[\nabla\theta^2]_{t-1}+(1-\rho){\nabla\theta_t}^2,
+\end{aligned}
+\end{equation}
+
+\noindent Now updates of Adadelta takes place as per \ref{eq:adadelta_up}
+
+\begin{equation}\label{eq:adadelta_up}
+\begin{aligned}
+\theta_t=\theta_{t-1} - \nabla\theta_t
+\end{aligned}
+\end{equation}
+
+\noindent if instead of using running average of parameters update, we use $\eta$ in \ref{eq:adadelta_avg_param} to calculate $\nabla\theta_t$ given in \ref{eq:rmsprop_avg_param} and update happens as per \ref{eq:adadelta_up}, then this optimizer is known as \textbf{RMSprop}.value of $\rho$ as proposed by the author is 0.95.
+
+\begin{equation}\label{eq:rmsprop_avg_param}
+\begin{aligned}
+\nabla\theta_{t}=-g_{t}\frac{\eta}{\sqrt{E[g^2]_{t}+\epsilon}}\\
+\end{aligned}
+\end{equation}
+
+\noindent \textbf{Adam(Adaptive moment estimation)}\cite{adam} combines momentum and norm based optimizer. It computes first and second moment estimate as per \ref{eq:adam_avgs}. $\hat{m_t}$ and $\hat{v_t}$ are known as first and second moment estimates respectively, 
+
+\begin{equation}\label{eq:adam_avgs}
+\begin{aligned}
+\hat{m_t}=\frac{\beta_1 m_{t-1}+(1-\beta_1)g_t}{(1-{\beta_1}^t)} \\
+\hat{v_t}=\frac{\beta_2 v_{t-1}+(1-\beta_2){g_t}^2}{(1-{\beta_2}^t)}\\
+\end{aligned}
+\end{equation}
+
+\noindent Adam updates then takes place as per \ref{eq:adam_up}
+\begin{equation}\label{eq:adam_up}
+\begin{aligned}
+\theta_t=\theta_{t-1} - \eta\frac{\hat{m_t}}{\sqrt{\hat{v_t}+\epsilon}}
+\end{aligned}
+\end{equation}
+
+\noindent \textbf{Adamax}\cite{adam} uses same updates as Adam other than it uses $l_{\infty}$ norm instead of $l_2$ norm.
+\input{optimizer_results.tex}
+
+\section{Number of Epochs}
+
+Number of epochs is the parameter which governs how many time full dataset will undergo training progress. As in minibatch learning batch size $\ll$ full training data. To see full data one time several minibatch undergoes update but not used later till full training data is used. One epoch thus sees full data set once and then it starts the process again.
+
+Number of epochs are required to average out noise which is introduced due to stochastic minibatch updates. 
+We have used this parameters in conjunction with Early stopping, which means set epoch value to a large number and use stopping criterion automatically based on certain performance parameter. In ur experiments we have used validation accuracy as performance parameter to monitor for maximum patience of 50 epochs, which means if there is no improvement from last 50 epochs on validation accuracy, training halts automatically.
+
+
+\section{Batch Size}
+
+Batch size or minibatch size is the total number of samples chosen from the dataset, which are part of single network update. Often this parameter is chosen arbitarily based on memory availability o the system or capability o underlying mechanism.
+There is not much study available on the batch size recommendations.As a general rule \cite{DBLP:journals/corr/abs-1206-5533} suggests to use batch size=32, as values above 10 can take advantage of fast matrix multiplications over vector matrix products.
+\cite{Hinton2012} in context of RBM(Restricted Boltzmann Machines) also suggest to use batch size greater than 10 for speed up, but strongly against making the size too big when using stochastic gradient descent.
+
+We can understand this bit more in context of network updates where each mini batch is responsible for a single update, so total number of updates in an epoch depends on the size of mini batch. Bigger the size less number of updates it has in an epoch. So weight updates decreases as batch size increases. \cite{Hinton2012} suggest to use batch size equal to number of classes in case of uniform class data with small number of classes. 
+Also it suggest to have sample from each class in a batch.
+However there is no experimental evidences provided which supports the suggestions for different networks. Also study of mini batch size with respect to classes seems interesting. So our major work here is experiments the relationship of this kind which is largely neglected and provide a recommendations for their choice. 
+
+\input{batch_results.tex}
+
+ 
+

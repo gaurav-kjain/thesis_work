@@ -1,0 +1,77 @@
+\subsection{Experiments}
+
+%\input{mnist_five_2_adg_heu.tex}
+\noindent This section provides comprehensive study on the choice of mini batch size, its relationship with number of classes in classification task.
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_FiveLayer_20B_0E_adagrad_he_u.csv}\dnwtwoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_FiveLayer_40B_0E_adagrad_he_u.csv}\dnwfooptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_FiveLayer_60B_0E_adagrad_he_u.csv}\dnwsxoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_FiveLayer_80B_0E_adagrad_he_u.csv}\dnwegoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_FiveLayer_100B_0E_adagrad_he_u.csv}\dnwhnoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_FiveLayer_120B_0E_adagrad_he_u.csv}\dnwhntwoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_FiveLayer_140B_0E_adagrad_he_u.csv}\dnwhnfooptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_FiveLayer_160B_0E_adagrad_he_u.csv}\dnwhnsxoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_FiveLayer_180B_0E_adagrad_he_u.csv}\dnwhnegoptinit
+
+\newcommand{\initerr}{Error for initial epochs}
+\newcommand{\initacc}{Accuracy for initial epcohs}
+\newcommand{\lateerr}{Error for later epochs}
+\newcommand{\lateacc}{Accuracy for later epochs}
+\newcommand{\boxerr}{Error variation}
+\newcommand{\boxacc}{Accuracy variation}
+
+\newcommand{\initcaption}{The initial epochs seen shows that 2x batch size(2x batch size=2*number of classes) started with the lowest error(a) as well as best accuracy(b), surprisingly 8x batch size started quite well inspite of less network updates in an epoch.
+	Then till 15 epochs it is mixed results and no batch size cannot be singled out as a best performer.}
+
+\newcommand{\latecaption}{8x started well but in late epochs it could not sustain the start, Another good perfromance is shown by 10x which has reached quite good accuracy but its error become high and entered overfitting regime, 2x performance in error as well as accuracy side remain quite robust.}
+
+\newcommand{\boxerracccaption}{4x perform quite well as error remain with in small range, but on high side, 16x and 18x have low error regime as their minimum error but their variance range is on higher side, 10x shows quite good accuracy and has its maximum value is maximum among all other batch sizes, while its error had high variance than 2x. 2x is consistent in both low error with less vairance as well as accuracy. Low error makes 2x a robust classifier.}
+
+\newcommand{\trtscaption}{2x shows quite good performance}
+\newcommand{\ymaxlim}{0.99}
+
+\input{batch_init_epochs.tex}
+\input{batch_box_plots.tex}
+\input{batch_late_epochs.tex}
+%\input{batch_train_test_plots.tex}
+
+
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_ThreeLayer_20B_0E_adagrad_he_u.csv}\dnwtwoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_ThreeLayer_40B_0E_adagrad_he_u.csv}\dnwfooptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_ThreeLayer_60B_0E_adagrad_he_u.csv}\dnwsxoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_ThreeLayer_80B_0E_adagrad_he_u.csv}\dnwegoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_ThreeLayer_100B_0E_adagrad_he_u.csv}\dnwhnoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_ThreeLayer_120B_0E_adagrad_he_u.csv}\dnwhntwoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_ThreeLayer_140B_0E_adagrad_he_u.csv}\dnwhnfooptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_ThreeLayer_160B_0E_adagrad_he_u.csv}\dnwhnsxoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_ThreeLayer_180B_0E_adagrad_he_u.csv}\dnwhnegoptinit
+
+\renewcommand{\initerr}{Error for initial epochs-revisited}
+\renewcommand{\initacc}{Accuracy for initial epcohs}
+\renewcommand{\lateerr}{Error for later epochs}
+\renewcommand{\lateacc}{Accuracy for later epochs}
+\renewcommand{\boxerr}{Error variation}
+\renewcommand{\boxacc}{Accuracy variation}
+
+\renewcommand{\initcaption}{The initial epochs seen shows that 2x batch size(2x batch size=2*number of classes) started with the lowest error(a) as well as best accuracy(b), surprisingly 8x batch size started quite well inspite of less network updates in an epoch.
+	Then till 15 epochs it is mixed results and no batch size cannot be singled out as a best performer.}
+
+\renewcommand{\latecaption}{8x started well but in late epochs it could not sustain the start, Another good perfromance is shown by 10x which has reached quite good accuracy but its error become high and entered overfitting regime, 2x performance in error as well as accuracy side remain quite robust.}
+
+\renewcommand{\boxerracccaption}{4x perform quite well as error remain with in small range, but on high side, 16x and 18x have low error regime as their minimum error but their variance range is on higher side, 10x shows quite good accuracy and has its maximum value is maximum among all other batch sizes, while its error had high variance than 2x. 2x is consistent in both low error with less vairance as well as accuracy. Low error makes 2x a robust classifier.}
+
+\renewcommand{\trtscaption}{2x shows quite good performance}
+
+\renewcommand{\initerr}{Error for initial epochs-revisited}
+\renewcommand{\ymaxlim}{0.98}
+
+\input{batch_init_epochs.tex}
+\input{batch_box_plots.tex}
+\input{batch_late_epochs.tex}
+\input{batch_train_test_plots.tex}
+
+
+
+
+
+
+

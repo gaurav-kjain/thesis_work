@@ -1,0 +1,78 @@
+\begin{figure}[H]
+	\hspace{-1cm}
+	\begin{tabular}{C{.5\textwidth}C{.5\textwidth}}%
+		\subfigure [\initerr] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			%xlabel={$epochs$}, %
+			ylabel={$error$}, %
+			height=7cm,%
+			width=6cm,%
+			legend style={font=\tiny,at={(1,1)},anchor=north east,fill=none, draw=none},%
+			xmax=15,%
+			yticklabel style={/pgf/number format/.cd,fixed,precision=5},%
+			label style = {scale=0.7},%
+			tick label style = {scale=0.7},%
+			] %
+			
+			\addplot+[mark=ball] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwtwoptinit};
+			\addlegendentry{2xc};%	
+			\addplot+[mark=10-pointed star] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwfooptinit};
+			\addlegendentry{4xc};%							
+			\addplot+[mark=triangle*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwsxoptinit};
+			\addlegendentry{6xc};%							
+			\addplot+[mark=halfcircle*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwegoptinit};
+			\addlegendentry{8xc};%							
+			\addplot+[mark=otimes*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwhnoptinit};
+			\addlegendentry{10xc};%
+			\addplot+[mark=10-pointed star] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwhntwoptinit};
+			\addlegendentry{12xc};%							
+			\addplot+[mark=diamond*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwhnfooptinit};
+			\addlegendentry{14xc};%							
+			\addplot+[mark=oplus*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwhnsxoptinit};
+			\addlegendentry{16xc};%
+			\addplot+[mark=pentagon*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwhnegoptinit};
+			\addlegendentry{18xc};%												
+			\end{axis} %
+			\end{tikzpicture}
+		}&
+			\subfigure [\initacc] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			%xlabel={$epochs$}, %
+			ylabel={$accuracy$}, %
+			height=7cm,%
+			width=6cm,%
+			legend style={at={(1,0)},anchor=south east,fill=none, draw=none},%
+			xmax=15,%
+			yticklabel style={/pgf/number format/.cd,fixed,precision=5},%
+			label style = {scale=0.7},%
+			tick label style = {scale=0.7},%
+			] %
+			%\addplot+[mark=ball] table[x expr=\coordindex , y={val_loss}] {\dnwtwoptinit};
+			%\addlegendentry{1xc};%							
+			\addplot+[mark=ball] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwtwoptinit};
+			\addlegendentry{2xc};%	
+			\addplot+[mark=10-pointed star] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwfooptinit};
+			\addlegendentry{4xc};%							
+			\addplot+[mark=triangle*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwsxoptinit};
+			\addlegendentry{6xc};%							
+			\addplot+[mark=halfcircle*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwegoptinit};
+			\addlegendentry{8xc};%							
+			\addplot+[mark=otimes*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwhnoptinit};
+			\addlegendentry{10xc};%
+			\addplot+[mark=10-pointed star] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwhntwoptinit};
+			\addlegendentry{12xc};%							
+			\addplot+[mark=diamond*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwhnfooptinit};
+			\addlegendentry{14xc};%							
+			\addplot+[mark=oplus*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwhnsxoptinit};
+			\addlegendentry{16xc};%
+			\addplot+[mark=pentagon*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwhnegoptinit};
+			\addlegendentry{18xc};%							
+			%\legend{}
+			\end{axis} %
+			\end{tikzpicture}
+		}\\%
+	\end{tabular}
+\caption {\textit{\boxerracccaption}}
+\end{figure}

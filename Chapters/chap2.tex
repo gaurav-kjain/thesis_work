@@ -1,0 +1,34 @@
+% chap2.tex
+
+
+\chapter{Network Structure}\label{chap:nwstruct}
+
+This chapter discusses different type of networks in practice, their usage and prominent network architectures. We will discuss only few networks which have achieved significant success in recent times. Primarily we will discuss CNN(Convolutional Neural network) as that is the main network used through out this work.
+
+\section{Networks}
+The introduction to Neural network has started long ago with Frank Rosenblatt, famous MLP(Multi Layer Perceptron)\cite{Rosenblatt58theperceptron:}.Working of neural nets today are precisely captured by Rosenblatt.
+It talks about pathways to connect to output so that for particular input associated pathway gets activated and produces corresponding output.
+Following that several networks are suggested directed for specific tasks. For example for image to extract neighborhood relationship, convolution neural networks are suggested. For time series data Recurrent neural networks are suggested. LSTM is recent state of the art for handling time series tasks.
+
+Auto Encoders are suggested as unsupervised nets, which generates low level representation of inputs using only input data. 
+Restricted boltzmann machines are another type of network which focuses on convergence by lowering the energy.
+In Hopfield network every neuron connects to every other neuron in the network.
+
+Other types of networks are Radial Basis Network(RBN), Gated Recurrent Unit(GRU), Deep belief network(DBN), Generative adversial network(GAN).
+
+
+\subsection{Perceptron}
+The perceptron has been introduced to handle perceptual recognition, generalization and hence the name Perceptron. In this landmark paper Rosenblatt nicely maps the neurons development in human being to perceptron.
+For instance connection of nervous system are assumed as random and in neural nets at start mostly random initializations are used.
+The original system has said to be capable of plasticity, which allows other neuron output to change over time seeing stimulus applied. And if same or similar stimuli is seen large number of times, will tend to form pathways to same sets of responding cells. This almost sums up the current neural nets, however the network construction, random initializations may differ a lot. 
+
+\subsection{RNN}
+Recurrent neural nets are having connections to same hidden layer neurons, and thus capable of storing time series data or feedback to be used with next set of input in sequence.
+
+
+
+
+
+
+%\renewcommand{\baselinestretch}{\spacing}\normalsize
+\doublespacing\normalsize

@@ -1,0 +1,117 @@
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%START%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TRAINING VS TESTING ACCURACY AND LOSS FOR ALL BATCH SIZES%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[H]
+	\hspace{-1cm}
+	\begin{tabular}{C{.50\textwidth}C{.50\textwidth}}%
+		\subfigure [2x-Error] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			label style = {scale=0.5},%
+			tick label style = {scale=0.5},%
+			xlabel={$training$}, %
+			ylabel={$testing$}, %
+			height=3cm,%
+			width=6cm,%
+			line width=1,%
+			axis y line*=left,%
+			legend style={legend columns=-1, at={(1,0)},anchor=south east,fill=red!10!white, draw=none},%
+			] %
+			\addplot+[blue!80!white,densely dotted,mark=1,fill=red!10!white] table[x={acc} , y={val_acc}] {\dnwtwoptinit};%
+			\addlegendentry{accuracy};%						
+			\end{axis} %
+			\begin{axis}[smooth,
+			label style = {scale=0.5},%
+			tick label style = {scale=0.5},%
+			%xlabel={$training-error$}, %
+			%ylabel={$testing-error$}, %
+			xticklabel shift={0.5cm},%
+			axis line shift=3pt,%
+			height=3cm,%
+			width=6cm,%
+			line width=1,%
+			axis y line*=right,%
+			legend style={legend columns=-1, at={(0,1)},anchor=north west,fill=blue!10!white, draw=none},%
+			] %
+			\addplot+[red!80!white,densely dotted,mark=1,fill=blue!10!white] table[x={loss} , y={val_loss}]{\dnwtwoptinit};%
+			\addlegendentry{loss};%							
+			\end{axis} %
+			\end{tikzpicture}			
+		}&
+		\subfigure [2x-Accuracy] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			label style = {scale=0.8},%
+			xlabel={$training-error$}, %
+			ylabel={$testing-error$}, %
+			height=3cm,%
+			width=6cm,%
+			line width=1,%
+			axis y line*=right,%
+			legend style={legend columns=-1, at={(0,1)},anchor=north west,fill=blue!10!white, draw=none},%
+			] %
+			\addplot+[red!80!white,densely dotted,mark=1,fill=blue!10!white] table[x={loss} , y={val_loss}]{\dnwtwoptinit};%
+			\addlegendentry{loss};%							
+			\end{axis} %
+			\end{tikzpicture}
+		}\\%
+	\subfigure [4x-Error] {
+		\begin{tikzpicture} %
+		\begin{axis}[smooth,
+		xlabel={$training$}, %
+		ylabel={$testing$}, %
+		height=3cm,%
+		width=6cm,%
+	    line width=1,%
+		] %
+		\addplot+[blue!70!white,densely dotted,mark=square,fill=red!20!white] table[x={acc} , y={val_acc}] {\dnwfooptinit};				
+		\end{axis} %
+		\end{tikzpicture}%			
+	}&
+	\subfigure [4x-Accuracy] {
+		\begin{tikzpicture} %
+		\begin{axis}[smooth,
+		xlabel={$training$}, %
+		ylabel={$testing$}, %
+		height=3cm,%
+		width=6cm,%
+		line width=1,%
+		] %
+		\addplot+[red!70!white,densely dotted,mark=square,fill=blue!20!white] table[x={loss} , y={val_loss}] {\dnwfooptinit};					
+		\end{axis} %
+		\end{tikzpicture}
+	}\\%
+	\subfigure [6x-Error] {
+		\begin{tikzpicture} %
+		\begin{axis}[smooth,
+		xlabel={$training$}, %
+		ylabel={$testing$}, %
+		height=3cm,%
+		width=6cm,%
+		line width=1,%
+		%ymin=0.992,%
+		] %
+		\addplot+[mark=square,fill=red!20!white] table[x={acc} , y={val_acc}] {\dnwsxoptinit};				
+		\end{axis} %
+		\end{tikzpicture}%			
+	}&
+	\subfigure [6x-Accuracy] {
+		\begin{tikzpicture} %
+		\begin{axis}[smooth,
+		xlabel={$training$}, %
+		ylabel={$testing$}, %
+		height=3cm,%
+		width=6cm,%
+		line width=1,%
+		] %
+		\addplot+[mark=square,fill=red!20!white] table[x={loss} , y={val_loss}] {\dnwsxoptinit};					
+		\end{axis} %
+		\end{tikzpicture}
+	}
+	\end{tabular}
+	\caption {\textit{\trtscaption}}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TRAINING VS TESTING ACCURACY AND LOSS FOR ALL BATCH SIZES%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%END%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

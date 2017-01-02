@@ -1,0 +1,34 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: Chapters/chap1.aux
+A level-1 auxiliary file: Chapters/chap2.aux
+A level-1 auxiliary file: Chapters/chap3.aux
+A level-1 auxiliary file: Chapters/chap4.aux
+A level-1 auxiliary file: Chapters/chap5.aux
+A level-1 auxiliary file: Chapters/chap6.aux
+A level-1 auxiliary file: Chapters/Appendix/apdxa.aux
+A level-1 auxiliary file: Chapters/Appendix/apdxb.aux
+Database file #1: ref.bib
+""" immediately follows a field name---line 24 of file ref.bib
+ :  Conferences
+ :             ",
+I'm skipping whatever remains of this entry
+Repeated entry---line 108 of file ref.bib
+ : @inproceedings{LeCun:1998:EB:645754.668382
+ :                                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 299 of file ref.bib
+ : @article{DBLP:journals/corr/HeZR015
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 315 of file ref.bib
+ : @article{DBLP:journals/corr/SaxeMG13
+ :                                     ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "someguy2002"
+Warning--empty journal in lecun-mnisthandwrittendigit-2010
+Warning--empty institution in Krizhevsky09learningmultiple
+Warning--empty journal in nadam_
+Warning--empty year in nadam_
+Warning--can't use both author and editor fields in Hinton2012
+(There were 4 error messages)

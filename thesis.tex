@@ -1,0 +1,115 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage{float}
+\usepackage{thesis}
+\usepackage{cite, array, amsmath, url, amsfonts} 
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepgfplotslibrary{patchplots,colormaps,statistics}
+\usepackage{subfigure}
+\usetikzlibrary{
+	pgfplots.colorbrewer,
+}
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\pgfplotsset{compat = newest,
+	every axis/.append style={
+		scaled ticks=false,
+		tick label style={/pgf/number format/fixed, scale=0.7},
+		scale only axis,
+		smooth,
+		width=0.5\textwidth,
+		mark repeat=1,
+		mark size=1.5pt,
+		only marks,
+		cycle list/Dark2,
+		grid=both,
+		label style = {scale=0.7},%
+	},
+	/tikz/every picture/.append style={
+		trim axis left,
+		trim axis right,
+	},
+% define a `cycle list' for marker
+cycle list/.define={my marks}{
+	every mark/.append style={solid,fill=\pgfkeysvalueof{/pgfplots/mark list fill}},mark=otimes*\\
+	every mark/.append style={dashed,fill=\pgfkeysvalueof{/pgfplots/mark list fill}},mark=square*\\
+	every mark/.append style={densely dotted,fill=\pgfkeysvalueof{/pgfplots/mark list fill}},mark=triangle*\\
+	every mark/.append style={solid,fill=\pgfkeysvalueof{/pgfplots/mark list fill}},mark=diamond*\\
+	every mark/.append style={solid,fill=\pgfkeysvalueof{/pgfplots/mark list fill}},mark=square\\
+},
+}
+\pgfplotstableset{
+	col sep = comma,
+}
+%\pgfplotsset{compat = 1.12}
+\usepackage[%
+font={small,sf},
+labelfont=bf,
+format=hang,
+]{caption}
+% The value for \thesistitle should be the title of the thesis in a single line.
+\renewcommand{\thesistitle}{
+Study of Neural network internals
+}
+
+% The value for \authorname should be the name of the student as per the
+% administrative records. Add your roll number here within paranthesis.
+\renewcommand{\authorname}{Gaurav Kumar Jain}
+\renewcommand{\rollnumber}{EMT2013007}
+% The value for \mydegree should be 
+% 1: for M.Tech., 
+% 2: for M.S. by research,
+% 3: for Ph.D.
+\renewcommand{\mydegree}{1} 
+
+% Values for the date that should go to your title page and certificate page,
+% specifically the day, month, and year. 
+% Note: Ensure that the date that is used is a valid date. 
+%
+% \myyear should be year in 4-digit format. 
+% \mymonth is the number corresponding to the month, e.g. 1, 2, ..., 12 for 
+%          January, February, ..., December, respectively.
+% \myday is the number for the day from 1 to 31, depending on the allowable 
+%          number of days for the month and year specified in \mymonth and 
+%          \myyear.
+\renewcommand{\myday}{30}
+\renewcommand{\mymonth}{12}
+\renewcommand{\myyear}{2016}
+
+% The value for \advisorname should be the name of the advisor without any
+% title 
+\renewcommand{\advisorname}{Prof. G.Srinivasaraghavan}
+
+% The value for \coadvisorname should be the name of the co-advisor without 
+% any title. Use the next line if no co-advisor; otherwise comment 
+% out the next line and uncomment the succeeding line. Change the value of 
+% \numberofcoadvisors to 1 if there is a coadvisor.
+%% \renewcommand{\numberofcoadvisors}{1}
+%% \renewcommand{\coadvisorname}{Jane Doe}
+
+% Customize your dedication
+\renewcommand{\mydedication}{Dedicated to \\ My parents, My Wife Divya and My sweet daughter Samartha}
+\setlength{\parskip}{11pt plus 1pt minus 1pt} 
+\begin{document}
+
+\maketitlepages
+\setchapterindexing
+
+
+\include{Chapters/chap1}
+\include{Chapters/chap2}
+\include{Chapters/chap3}
+\include{Chapters/chap4}
+\include{Chapters/chap5}
+\include{Chapters/chap6}
+
+%\setbib
+\bibliography{ref}
+% If you have no appendices, remove the following three lines.
+% If you have more appdences, add them as necessary.
+\setappendixindexing
+\appendix
+\include{Chapters/Appendix/apdxa}
+\include{Chapters/Appendix/apdxb}
+
+\end{document}
