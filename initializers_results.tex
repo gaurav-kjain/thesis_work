@@ -146,49 +146,5 @@ In this section we analyze the effect of different initializers based on our exp
 \subsubsection{MNIST}
 \textbf{Two Layer, opti=nadam, batch size=1xc}
 
-\pgfplotstableclear{\dnwonoptinit}
-\pgfplotstableclear{\dnwtwoptinit}
-\pgfplotstableclear{\dnwfooptinit}
-\pgfplotstableclear{\dnwsxoptinit}
-\pgfplotstableclear{\dnwegoptinit}
-\pgfplotstableclear{\dnwhnoptinit}
-%TBD:ADD NORM RESULT
-\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_n.csv}\dnwonoptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_u.csv}\dnwtwoptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u.csv}\dnwfooptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u.csv}\dnwsxoptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_unif.csv}\dnwegoptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_zero.csv}\dnwhnoptinit
-\renewcommand{\initerr}{Error for initiaNITCIFAR10}
-\renewcommand{\initacc}{Accuracy for initial epcohs}
-\renewcommand{\lateerr}{Error for later epochs}
-\renewcommand{\lateacc}{Accuracy for later epochs}
-\renewcommand{\boxerr}{Error variation}
-\renewcommand{\boxacc}{Accuracy variation}
 
-\renewcommand{\initfigtitle}{Different batch results for starting 15 epochs }
-\renewcommand{\initcaption}{to write}
-
-\renewcommand{\latefigtitle}{Different batch results for later epochs}
-\renewcommand{\latecaption}{to write}
-
-\renewcommand{\boxerraccfigtitle}{accuracy and error plot for full training epochs}
-\renewcommand{\boxerracccaption}{to write}
-
-\renewcommand{\trtscaption}{to write}
-\renewcommand	{\ymaxlim}{0.65}
-
-\input{batch_init_epochsnew.tex}
-\input{batch_box_plotsnew.tex}
-\input{batch_late_epochsnew.tex}
-%\input{batch_train_test_plots.tex}
-
-\pgfplotstableclear{\dnwonoptinit}
-\pgfplotstableclear{\dnwtwoptinit}
-\pgfplotstableclear{\dnwfooptinit}
-\pgfplotstableclear{\dnwsxoptinit}
-\pgfplotstableclear{\dnwegoptinit}
-\pgfplotstableclear{\dnwhnoptinit}
-
-\relax
 
