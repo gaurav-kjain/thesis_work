@@ -9,10 +9,9 @@
 			boxplot/draw direction=y,%
 			xtick={1,2,3,4,5,6,7,8,9},%
 			xticklabels={2, 4, 6, 8, 10, 12, 14,16,18},%
-			height=5cm,%
-			width=7cm,%
+			height=4cm,%
+			width=3cm,%
 			] %
-			
 			\addplot+ [boxplot,fill=green!20!white] table [x expr=2,y ={val_loss}] {\dnwtwoptinit};
 			\addplot+ [boxplot,fill=orange!20!white] table [x expr=4,y ={val_loss}] {\dnwfooptinit};		
 			\addplot+ [boxplot,fill=violet!10!white] table [x expr=6,y ={val_loss}] {\dnwsxoptinit};					
@@ -33,6 +32,8 @@
 			xticklabels={2, 4, 6, 8, 10, 12, 14,16,18},%
 			xlabel={\textit{batch size [in multiple of classes]}}, %
 			ylabel={\textit{accuracy}}, %
+			height=4cm,%
+			width=3cm,%
 			] %
 			\addplot+ [boxplot,fill=green!20!white] table [x expr=2,y ={val_acc}] {\dnwtwoptinit};%
 			\addplot+ [boxplot,fill=orange!20!white] table [x expr=4,y ={val_acc}] {\dnwfooptinit};%		
@@ -47,5 +48,8 @@
 			\end{tikzpicture}
 		}
 	\end{tabular}
-	\caption {\textit{\boxerracccaption}}
+	\caption {\textit{\boxerraccfigtitle}}
+	\medskip
+	\small
+	\textit{\boxerracccaption}
 \end{figure}

@@ -1,0 +1,66 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {FC1.1}{\ignorespaces A Simple Neural Network\relax }}{2}
+\contentsline {figure}{\numberline {FC1.2}{\ignorespaces DNN Training Lifecycle\relax }}{3}
+\contentsline {figure}{\numberline {FC1.3}{\ignorespaces MNIST dataset input images example\relax }}{8}
+\contentsline {figure}{\numberline {FC1.4}{\ignorespaces CIFAR-10 dataset input images example\relax }}{9}
+\contentsline {figure}{\numberline {FC1.5}{\ignorespaces CIFAR-100 dataset input images example\relax }}{10}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {FC3.1}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{20}
+\contentsline {figure}{\numberline {FC3.2}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{21}
+\contentsline {figure}{\numberline {FC3.3}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{21}
+\contentsline {figure}{\numberline {FC3.4}{\ignorespaces \textit {2x shows quite good performance}\relax }}{22}
+\contentsline {figure}{\numberline {FC3.5}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{23}
+\contentsline {figure}{\numberline {FC3.6}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{23}
+\contentsline {figure}{\numberline {FC3.7}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{24}
+\contentsline {figure}{\numberline {FC3.8}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{24}
+\contentsline {figure}{\numberline {FC3.9}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{25}
+\contentsline {figure}{\numberline {FC3.10}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{25}
+\contentsline {figure}{\numberline {FC3.11}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{26}
+\contentsline {figure}{\numberline {FC3.12}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{26}
+\contentsline {figure}{\numberline {FC3.13}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{27}
+\contentsline {figure}{\numberline {FC3.14}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{27}
+\contentsline {figure}{\numberline {FC3.15}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{28}
+\contentsline {figure}{\numberline {FC3.16}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{28}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {FA1.1}{\ignorespaces Image of a deadlocked Petri net at 40\% scaling.\relax }}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2x-Error}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2x-Accuracy}}}{35}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {4x-Error}}}{35}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {4x-Accuracy}}}{35}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {6x-Error}}}{35}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {6x-Accuracy}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs-revisited}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs-2}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs-2}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs-2}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{35}
+\addvspace {10\p@ }

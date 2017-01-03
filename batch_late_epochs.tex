@@ -7,8 +7,8 @@
 		xlabel={$epochs$}, %
 		ylabel={$error$}, %
 		height=3cm,%
-		width=15cm,%
-		legend style={legend columns=-1, at={(1,1)},anchor=north east,fill=none, draw=none},%
+		width=12cm,%
+		legend style={font=\tiny,legend columns=-1, at={(1,1)},anchor=north east,fill=none, draw=none},%
 		xmin=15,%
 		yticklabel style={/pgf/number format/.cd,fixed,precision=5},%
 		] %
@@ -41,10 +41,10 @@
 		xlabel={$epochs$}, %
 		ylabel={$accuracy$}, %
 		height=3cm,%
-		width=15cm,%
-		legend style={legend columns=-1, at={(1,0)},anchor=south east,fill=none, draw=none},%
+		width=12cm,%
+		legend style={font=\tiny,legend columns=-1, at={(1,0)},anchor=south east,fill=none, draw=none},%
 		ymin=\ymaxlim,%
-		xmin=15,%
+		xmin=12,%
 		yticklabel style={/pgf/number format/.cd,fixed,precision=5},%
 		] %
 		%\addplot+[mark=ball] table[x expr=\coordindex , y={val_loss}] {\dnwtwoptinit};
@@ -71,5 +71,8 @@
 		\end{tikzpicture}
 	}\\
 \end{tabular}
-\caption {\textit{\latecaption}}
+\caption {\textit{\latefigtitle}}
+\medskip
+\small
+\textit{\latecaption}
 \end{figure}

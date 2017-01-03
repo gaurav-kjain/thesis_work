@@ -6,13 +6,13 @@
 			\begin{axis}[smooth,
 			%xlabel={$epochs$}, %
 			ylabel={$error$}, %
-			height=7cm,%
-			width=6cm,%
+			height=4cm,%
+			width=4cm,%
 			legend style={font=\tiny,at={(1,1)},anchor=north east,fill=none, draw=none},%
 			xmax=15,%
 			yticklabel style={/pgf/number format/.cd,fixed,precision=5},%
-			label style = {scale=0.7},%
-			tick label style = {scale=0.7},%
+			label style = {scale=0.8},%
+			tick label style = {scale=0.8},%
 			] %
 			
 			\addplot+[mark=ball] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwtwoptinit};
@@ -41,13 +41,13 @@
 			\begin{axis}[smooth,
 			%xlabel={$epochs$}, %
 			ylabel={$accuracy$}, %
-			height=7cm,%
-			width=6cm,%
-			legend style={at={(1,0)},anchor=south east,fill=none, draw=none},%
+			height=4cm,%
+			width=4cm,%
+			legend style={font=\tiny,at={(1,0)},anchor=south east,fill=none, draw=none},%
 			xmax=15,%
 			yticklabel style={/pgf/number format/.cd,fixed,precision=5},%
-			label style = {scale=0.7},%
-			tick label style = {scale=0.7},%
+			label style = {scale=0.8},%
+			tick label style = {scale=0.8},%
 			] %
 			%\addplot+[mark=ball] table[x expr=\coordindex , y={val_loss}] {\dnwtwoptinit};
 			%\addlegendentry{1xc};%							
@@ -73,6 +73,9 @@
 			\end{axis} %
 			\end{tikzpicture}
 		}\\%
-	\end{tabular}
-\caption {\textit{\boxerracccaption}}
+	\end{tabular}%
+	\caption {\textit{\initfigtitle}}%
+	\medskip
+	\small
+	\textit{\initcaption}
 \end{figure}

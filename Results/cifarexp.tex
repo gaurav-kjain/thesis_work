@@ -1,0 +1,17 @@
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+	\begin{axis}[%
+	name=Training and Testing Accuracy,
+	legend pos = south east,
+	ylabel=Accuracy,
+	xlabel=Epochs,
+	%ymin=0.42,
+	%xmax=120,
+	%xmin=60
+	]
+	\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar100_carebatch_FiveLayer_100B_0E_adamax_gl_u.csv};
+	\addlegendentry{Training};
+	\end{axis}
+	\end{tikzpicture}%
+\end{figure}

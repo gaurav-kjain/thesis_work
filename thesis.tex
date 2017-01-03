@@ -4,8 +4,10 @@
 \usepackage{cite, array, amsmath, url, amsfonts} 
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
-\usepgfplotslibrary{patchplots,colormaps,statistics}
+\usepgfplotslibrary{patchplots,colormaps,statistics,external}
 \usepackage{subfigure}
+
+
 \usetikzlibrary{
 	pgfplots.colorbrewer,
 }
@@ -18,7 +20,7 @@
 		scale only axis,
 		smooth,
 		width=0.5\textwidth,
-		mark repeat=1,
+		mark repeat=2,
 		mark size=1.5pt,
 		only marks,
 		cycle list/Dark2,
@@ -90,6 +92,14 @@ Study of Neural network internals
 % Customize your dedication
 \renewcommand{\mydedication}{Dedicated to \\ My parents, My Wife Divya and My sweet daughter Samartha}
 \setlength{\parskip}{11pt plus 1pt minus 1pt} 
+
+
+\tikzexternalize%
+\tikzsetexternalprefix{Images/}%
+%\tikzset{external/force remake}
+
+
+
 \begin{document}
 
 \maketitlepages

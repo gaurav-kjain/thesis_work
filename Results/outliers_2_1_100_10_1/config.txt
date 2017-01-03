@@ -1,0 +1,6 @@
+ltt=8e-2
+clamp=1e-2
+epoch=100
+internal epoch=10
+patience=1
+pass=2

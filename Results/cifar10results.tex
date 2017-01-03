@@ -1,0 +1,402 @@
+\section{CIFAR-10 Results}
+First we will see results related to different database and parameters configurations.
+\begin{figure}[H]
+	\hspace{-1cm}
+	\begin{tabular}{C{.48\textwidth}C{.48\textwidth}}
+		%%%%%%%%%%%%%%%%%%%%%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\subfigure [Training accuracy] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			legend pos = south east,
+			xlabel={$epochs$}, %
+			ylabel={$accuracy$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},%
+			%width=0.25
+			] %
+			\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch};%				
+			\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_carebatch_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_careup_init_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		}&
+		\subfigure [Validation Accuracy] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			legend pos = south east,
+			xlabel={$epochs$}, %
+			ylabel={$accuracy$}, %
+			mark repeat=10,%
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},%
+			%width=0.25
+			] %
+			\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch};%				
+			\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_carebatch_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma]
+			{Results/cifar10_careup_init_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		} \\
+		\subfigure [Training loss] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			xlabel={$epochs$}, %
+			ylabel={$error$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+			] %
+			\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch};%			
+			\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_carebatch_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={loss}, col sep=comma]
+			{Results/cifar10_careup_init_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		}&
+		\subfigure [Validation loss] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			xlabel={$epochs$}, %
+			ylabel={$error$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+			] %
+			\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch};%			
+			\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_carebatch_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma]
+			{Results/cifar10_careup_init_ThreeLayer_10B_0E_adamax_he_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		}
+	\end{tabular}
+	\caption {\textit{hessian uniform,batch size=10,three layer}}
+\end{figure}
+
+
+\begin{figure}[H]
+	\hspace{-1cm}
+	\begin{tabular}{C{.48\textwidth}C{.48\textwidth}}
+		%%%%%%%%%%%%%%%%%%%%%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\subfigure [Training accuracy] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			legend pos = south east,
+			xlabel={$epochs$}, %
+			ylabel={$accuracy$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},%
+			%width=0.25
+			] %
+			\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch};%				
+			\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_carebatch_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_careup_init_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		}&
+		\subfigure [Validation Accuracy] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			legend pos = south east,
+			xlabel={$epochs$}, %
+			ylabel={$accuracy$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},%
+			%width=0.25
+			] %
+			\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch};%				
+			\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_carebatch_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_careup_init_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		} \\
+		\subfigure [Training loss] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			xlabel={$epochs$}, %
+			ylabel={$error$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+			] %
+			\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch};%			
+			\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_carebatch_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_careup_init_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		}&
+		\subfigure [Validation loss] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			xlabel={$epochs$}, %
+			ylabel={$error$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+			] %
+			\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch};%			
+			\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_carebatch_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_careup_init_ThreeLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		}
+	\end{tabular}
+	\caption {\textit{glorot uniform,batch size=10,three layer}}
+\end{figure}
+
+\begin{figure}[H]
+	\hspace{-1cm}
+	\begin{tabular}{C{.48\textwidth}C{.48\textwidth}}
+		%%%%%%%%%%%%%%%%%%%%%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\subfigure [Training accuracy] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			legend pos = south east,
+			xlabel={$epochs$}, %
+			ylabel={$accuracy$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},%
+			%width=0.25
+			] %
+			\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch};%				
+			\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_carebatch_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_careup_init_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		}&
+		\subfigure [Validation Accuracy] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			legend pos = south east,
+			xlabel={$epochs$}, %
+			ylabel={$accuracy$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},%
+			%width=0.25
+			] %
+			\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch};%				
+			\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_carebatch_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_careup_init_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		} \\
+		\subfigure [Training loss] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			xlabel={$epochs$}, %
+			ylabel={$error$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+			] %
+			\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch};%			
+			\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_carebatch_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_careup_init_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		}&
+		\subfigure [Validation loss] {
+			\begin{tikzpicture} %
+			\begin{axis}[smooth,
+			xlabel={$epochs$}, %
+			ylabel={$error$}, %
+			mark repeat=10,%
+			
+			xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+			] %
+			\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch};%			
+			\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_carebatch_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+care};
+			\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_careup_init_FiveLayer_10B_0E_adamax_gl_u.csv};
+			\addlegendentry{minibatch+careinit};
+			\end{axis} %
+			\end{tikzpicture}
+		}
+	\end{tabular}
+	\caption {\textit{glorot uniform,batch size=10,five layer}}
+\end{figure}
+
+
+	\begin{figure}[H]
+		\hspace{-1cm}
+		\begin{tabular}{C{.48\textwidth}C{.48\textwidth}}
+			%%%%%%%%%%%%%%%%%%%%%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			\subfigure [Training accuracy] {
+				\begin{tikzpicture} %
+				\begin{axis}[smooth,
+				legend pos = south east,
+				xlabel={$epochs$}, %
+				ylabel={$accuracy$}, %
+				mark repeat=10,%
+				
+				xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+				] %
+				\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Three Layer};%				
+				\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Five Layer};
+				\end{axis} %
+				\end{tikzpicture}
+			}&
+			\subfigure [Validation accuracy] {
+				\begin{tikzpicture} %
+				\begin{axis}[smooth,
+				legend pos = south east,
+				xlabel={$epochs$}, %
+				mark repeat=10,%
+				
+				xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+				] %
+				\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Three Layer};%				
+				\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Five Layer};
+				\end{axis} %
+				\end{tikzpicture}
+			} \\
+			\subfigure [Training loss] {
+				\begin{tikzpicture} %
+				\begin{axis}[smooth,
+				xlabel={$epochs$}, %
+				ylabel={$error$}, %
+				mark repeat=10,%
+				
+				xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+				] %
+				\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Three Layer};%				
+				\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Five Layer};
+				\end{axis} %
+				\end{tikzpicture}
+			}&
+			\subfigure [Validation loss] {
+				\begin{tikzpicture} %
+				\begin{axis}[smooth,
+				xlabel={$epochs$}, %
+				mark repeat=10,%
+				
+				xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+				] %
+				\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Three Layer};%				
+				\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Five Layer};
+				\end{axis} %
+				\end{tikzpicture}
+			}
+		\end{tabular}
+		\caption {\textit{optimizer=adamax, initializer=glorot uniform and batch size=10}}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\hspace{-1cm}
+		\begin{tabular}{C{.48\textwidth}C{.48\textwidth}}
+			%%%%%%%%%%%%%%%%%%%%%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			\subfigure [Training accuracy] {
+				\begin{tikzpicture} %
+				\begin{axis}[smooth,
+				legend pos = south east,
+				xlabel={$epochs$}, %
+				ylabel={$accuracy$}, %
+				mark repeat=10,%
+				
+				xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+				] %
+				\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_he_u.csv};
+				\addlegendentry{Three Layer};%				
+				\addplot table[x expr=\coordindex , y={acc}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_he_u.csv};
+				\addlegendentry{Five Layer};
+				\end{axis} %
+				\end{tikzpicture}
+			}&
+			\subfigure [Validation accuracy] {
+				\begin{tikzpicture} %
+				\begin{axis}[smooth,
+				legend pos = south east,
+				xlabel={$epochs$}, %
+				mark repeat=10,%
+				
+				xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+				] %
+				\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_he_u.csv};
+				\addlegendentry{Three Layer};%				
+				\addplot table[x expr=\coordindex , y={val_acc}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_he_u.csv};
+				\addlegendentry{Five Layer};
+				\end{axis} %
+				\end{tikzpicture}
+			} \\
+			\subfigure [Training loss] {
+				\begin{tikzpicture} %
+				\begin{axis}[smooth,
+				xlabel={$epochs$}, %
+				ylabel={$error$}, %
+				%mark repeat=10,%
+				
+				xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+				] %
+				\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Three Layer};%				
+				\addplot table[x expr=\coordindex , y={loss}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Five Layer};
+				\end{axis} %
+				\end{tikzpicture}
+			}&
+			\subfigure [Validation loss] {
+				\begin{tikzpicture} %
+				\begin{axis}[smooth,
+				xlabel={$epochs$}, %
+				mark repeat=10,%
+				
+				xticklabel style={/pgf/number format/.cd,fixed,precision=2},
+				] %
+				\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_ThreeLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Three Layer};%				
+				\addplot table[x expr=\coordindex , y={val_loss}, col sep=comma] {Results/cifar10_FiveLayer_10B_0E_adamax_gl_u.csv};
+				\addlegendentry{Five Layer};
+				\end{axis} %
+				\end{tikzpicture}
+			}
+		\end{tabular}
+		\caption {\textit{optimizer=adamax, initializer=hessian uniform and batch size=10}}
+	\end{figure}
+
