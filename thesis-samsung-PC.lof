@@ -1,0 +1,23 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {FC1.1}{\ignorespaces A Simple Neural Network\relax }}{2}
+\contentsline {figure}{\numberline {FC1.2}{\ignorespaces DNN Training Lifecycle\relax }}{3}
+\contentsline {figure}{\numberline {FC1.3}{\ignorespaces MNIST dataset input images example\relax }}{8}
+\contentsline {figure}{\numberline {FC1.4}{\ignorespaces CIFAR-10 dataset input images example\relax }}{9}
+\contentsline {figure}{\numberline {FC1.5}{\ignorespaces CIFAR-100 dataset input images example\relax }}{10}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {FC3.1}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{15}
+\contentsline {figure}{\numberline {FC3.2}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{16}
+\contentsline {figure}{\numberline {FC3.3}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{16}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {FA1.1}{\ignorespaces Image of a deadlocked Petri net at 40\% scaling.\relax }}{27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs:INIT}}}{27}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{27}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{27}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{27}
+\addvspace {10\p@ }

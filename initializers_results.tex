@@ -3,16 +3,22 @@
 In this section we analyze the effect of different initializers based on our experiment results.
 
 \subsubsection{CIFAR100}
-\textbf{Two Layer, opti=adagrad, init=hessian uniform}
+\textbf{Two Layer, opti=adagrad, batch size=1xc}
 
+\pgfplotstableclear{\dnwonoptinit}
+\pgfplotstableclear{\dnwtwoptinit}
+\pgfplotstableclear{\dnwfooptinit}
+\pgfplotstableclear{\dnwsxoptinit}
+\pgfplotstableclear{\dnwegoptinit}
+\pgfplotstableclear{\dnwhnoptinit}
 
-\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_adagrad_he_u.csv}\dnwonoptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_200B_0E_adagrad_he_u.csv}\dnwtwoptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_400B_0E_adagrad_he_u.csv}\dnwfooptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_600B_0E_adagrad_he_u.csv}\dnwsxoptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_800B_0E_adagrad_he_u.csv}\dnwegoptinit
-\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_1000B_0E_adagrad_he_u.csv}\dnwhnoptinit
-\providecommand{\initerr}{Error for initial epochs}
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_gl_n.csv}\dnwonoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_gl_u.csv}\dnwtwoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_he_u.csv}\dnwfooptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_norm.csv}\dnwsxoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_unif.csv}\dnwegoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_zero.csv}\dnwhnoptinit
+\providecommand{\initerr}{Error for initial epochs:INIT}
 \providecommand{\initacc}{Accuracy for initial epcohs}
 \providecommand{\lateerr}{Error for later epochs}
 \providecommand{\lateacc}{Accuracy for later epochs}
@@ -20,16 +26,15 @@ In this section we analyze the effect of different initializers based on our exp
 \providecommand{\boxacc}{Accuracy variation}
 
 \providecommand{\initfigtitle}{Different batch results for starting 15 epochs }
-\providecommand{\initcaption}{The initial epochs seen shows that 2x batch size(2x batch size=2*number of classes) started with the lowest error(a) as well as best accuracy(b), surprisingly 8x batch size started quite well inspite of less network updates in an epoch.
-	Then till 15 epochs it is mixed results and no batch size cannot be singled out as a best performer.}
+\providecommand{\initcaption}{to write}
 
 \providecommand{\latefigtitle}{Different batch results for later epochs}
-\providecommand{\latecaption}{8x started well but in late epochs it could not sustain the start, Another good perfromance is shown by 10x which has reached quite good accuracy but its error become high and entered overfitting regime, 2x performance in error as well as accuracy side remain quite robust.}
+\providecommand{\latecaption}{to write}
 
 \providecommand{\boxerraccfigtitle}{accuracy and error plot for full training epochs}
-\providecommand{\boxerracccaption}{4x perform quite well as error remain with in small range, but on high side, 16x and 18x have low error regime as their minimum error but their variance range is on higher side, 10x shows quite good accuracy and has its maximum value is maximum among all other batch sizes, while its error had high variance than 2x. 2x is consistent in both low error with less vairance as well as accuracy. Low error makes 2x a robust classifier.}
+\providecommand{\boxerracccaption}{to write}
 
-\providecommand{\trtscaption}{2x shows quite good performance}
+\providecommand{\trtscaption}{to write}
 \providecommand	{\ymaxlim}{0.65}
 
 \input{batch_init_epochsnew.tex}
@@ -45,3 +50,145 @@ In this section we analyze the effect of different initializers based on our exp
 \pgfplotstableclear{\dnwhnoptinit}
 
 \relax
+
+
+\textbf{Two Layer, opti=SGD with nesterov momentum, batch size=1xc}
+
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl_n.csv}\dnwonoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl_u.csv}\dnwtwoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_he_u.csv}\dnwfooptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_norm.csv}\dnwsxoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_unif.csv}\dnwegoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_zero.csv}\dnwhnoptinit
+\renewcommand{\initerr}{Error for initial epochs:INIT}
+\renewcommand{\initacc}{Accuracy for initial epcohs}
+\renewcommand{\lateerr}{Error for later epochs}
+\renewcommand{\lateacc}{Accuracy for later epochs}
+\renewcommand{\boxerr}{Error variation}
+\renewcommand{\boxacc}{Accuracy variation}
+
+\renewcommand{\initfigtitle}{Different batch results for starting 15 epochs }
+\renewcommand{\initcaption}{to write}
+
+\renewcommand{\latefigtitle}{Different batch results for later epochs}
+\renewcommand{\latecaption}{to write}
+
+\renewcommand{\boxerraccfigtitle}{accuracy and error plot for full training epochs}
+\renewcommand{\boxerracccaption}{to write}
+
+\renewcommand{\trtscaption}{to write}
+\renewcommand	{\ymaxlim}{0.65}
+
+\input{batch_init_epochsnew.tex}
+\input{batch_box_plotsnew.tex}
+\input{batch_late_epochsnew.tex}
+%\input{batch_train_test_plots.tex}
+
+\pgfplotstableclear{\dnwonoptinit}
+\pgfplotstableclear{\dnwtwoptinit}
+\pgfplotstableclear{\dnwfooptinit}
+\pgfplotstableclear{\dnwsxoptinit}
+\pgfplotstableclear{\dnwegoptinit}
+\pgfplotstableclear{\dnwhnoptinit}
+
+\relax
+
+
+\subsubsection{CIFAR-10}
+\textbf{Five Layer, opti=adagrad, batch size=2xc}
+
+\pgfplotstableclear{\dnwonoptinit}
+\pgfplotstableclear{\dnwtwoptinit}
+\pgfplotstableclear{\dnwfooptinit}
+\pgfplotstableclear{\dnwsxoptinit}
+\pgfplotstableclear{\dnwegoptinit}
+\pgfplotstableclear{\dnwhnoptinit}
+
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_gl_n.csv}\dnwonoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_gl_u.csv}\dnwtwoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_he_u.csv}\dnwfooptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_norm.csv}\dnwsxoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_unif.csv}\dnwegoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_zero.csv}\dnwhnoptinit
+\renewcommand{\initerr}{Error for initiaNITCIFAR10}
+\renewcommand{\initacc}{Accuracy for initial epcohs}
+\renewcommand{\lateerr}{Error for later epochs}
+\renewcommand{\lateacc}{Accuracy for later epochs}
+\renewcommand{\boxerr}{Error variation}
+\renewcommand{\boxacc}{Accuracy variation}
+
+\renewcommand{\initfigtitle}{Different batch results for starting 15 epochs }
+\renewcommand{\initcaption}{to write}
+
+\renewcommand{\latefigtitle}{Different batch results for later epochs}
+\renewcommand{\latecaption}{to write}
+
+\renewcommand{\boxerraccfigtitle}{accuracy and error plot for full training epochs}
+\renewcommand{\boxerracccaption}{to write}
+
+\renewcommand{\trtscaption}{to write}
+\renewcommand	{\ymaxlim}{0.65}
+
+\input{batch_init_epochsnew.tex}
+\input{batch_box_plotsnew.tex}
+\input{batch_late_epochsnew.tex}
+%\input{batch_train_test_plots.tex}
+
+\pgfplotstableclear{\dnwonoptinit}
+\pgfplotstableclear{\dnwtwoptinit}
+\pgfplotstableclear{\dnwfooptinit}
+\pgfplotstableclear{\dnwsxoptinit}
+\pgfplotstableclear{\dnwegoptinit}
+\pgfplotstableclear{\dnwhnoptinit}
+
+\relax
+
+\subsubsection{MNIST}
+\textbf{Two Layer, opti=nadam, batch size=1xc}
+
+\pgfplotstableclear{\dnwonoptinit}
+\pgfplotstableclear{\dnwtwoptinit}
+\pgfplotstableclear{\dnwfooptinit}
+\pgfplotstableclear{\dnwsxoptinit}
+\pgfplotstableclear{\dnwegoptinit}
+\pgfplotstableclear{\dnwhnoptinit}
+%TBD:ADD NORM RESULT
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_n.csv}\dnwonoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_u.csv}\dnwtwoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u.csv}\dnwfooptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u.csv}\dnwsxoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_unif.csv}\dnwegoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_zero.csv}\dnwhnoptinit
+\renewcommand{\initerr}{Error for initiaNITCIFAR10}
+\renewcommand{\initacc}{Accuracy for initial epcohs}
+\renewcommand{\lateerr}{Error for later epochs}
+\renewcommand{\lateacc}{Accuracy for later epochs}
+\renewcommand{\boxerr}{Error variation}
+\renewcommand{\boxacc}{Accuracy variation}
+
+\renewcommand{\initfigtitle}{Different batch results for starting 15 epochs }
+\renewcommand{\initcaption}{to write}
+
+\renewcommand{\latefigtitle}{Different batch results for later epochs}
+\renewcommand{\latecaption}{to write}
+
+\renewcommand{\boxerraccfigtitle}{accuracy and error plot for full training epochs}
+\renewcommand{\boxerracccaption}{to write}
+
+\renewcommand{\trtscaption}{to write}
+\renewcommand	{\ymaxlim}{0.65}
+
+\input{batch_init_epochsnew.tex}
+\input{batch_box_plotsnew.tex}
+\input{batch_late_epochsnew.tex}
+%\input{batch_train_test_plots.tex}
+
+\pgfplotstableclear{\dnwonoptinit}
+\pgfplotstableclear{\dnwtwoptinit}
+\pgfplotstableclear{\dnwfooptinit}
+\pgfplotstableclear{\dnwsxoptinit}
+\pgfplotstableclear{\dnwegoptinit}
+\pgfplotstableclear{\dnwhnoptinit}
+
+\relax
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  3 JAN 2017 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  3 JAN 2017 19:08
 entering extended mode
 **\def\tikzexternalrealjob{thesis}\input{thesis}
 (thesis.tex ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
@@ -1065,146 +1065,41 @@ nput line 35.
 LaTeX Warning: Citation `Glorot10understandingthe' on page 11 undefined on inpu
 t line 35.
 
+(initializers_results.tex
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_gl_n.csv}
 
-LaTeX Warning: Citation `DBLP:journals/corr/Ruder16' on page 12 undefined on in
-put line 44.
-
-
-LaTeX Warning: Citation `nadam_' on page 12 undefined on input line 44.
-
-
-LaTeX Warning: Reference `eq:gd_up' on page 12 undefined on input line 47.
-
-
-LaTeX Warning: Reference `chap:training' on page 12 undefined on input line 55.
-
-
-
-Overfull \hbox (26.41794pt too wide) in paragraph at lines 57--59
-\OT1/ptm/b/n/10.95 (Stochas-tic Gra-di-ent De-scent)\OT1/ptm/m/n/10.95 , which 
-is also known as on-line learn-ing. Com-monly $\OML/ztmcm/m/it/10.95 minibatch 
-size  \OMS/ztmcm/m/n/10.95 
- []
-
-
-LaTeX Warning: Reference `eq:gd_up' on page 13 undefined on input line 60.
-
-
-LaTeX Warning: Reference `chap:training' on page 13 undefined on input line 60.
-
-
-
-LaTeX Warning: Citation `POLYAK19641' on page 13 undefined on input line 63.
-
-
-LaTeX Warning: Reference `eq:momentum' on page 13 undefined on input line 63.
-
-
-LaTeX Warning: Reference `eq:moment_up' on page 13 undefined on input line 63.
-
-
-LaTeX Warning: Reference `eq:nag_up' on page 13 undefined on input line 77.
-
-
-LaTeX Warning: Citation `Duchi:2011:ASM:1953048.2021068' on page 13 undefined o
-n input line 87.
-
-
-LaTeX Warning: Reference `eq:adagrad' on page 13 undefined on input line 90.
-
-
-LaTeX Warning: Citation `adadelta' on page 14 undefined on input line 99.
-
-
-LaTeX Warning: Reference `eq:adagrad' on page 14 undefined on input line 99.
-
-
-LaTeX Warning: Reference `eq:adadelta_average' on page 14 undefined on input li
-ne 99.
-
-
-LaTeX Warning: Reference `eq:adadelta_average' on page 14 undefined on input li
-ne 105.
-
-
-LaTeX Warning: Reference `eq:adadelta_avg_param' on page 14 undefined on input 
-line 105.
-
-
-LaTeX Warning: Reference `eq:adadelta_up' on page 14 undefined on input line 11
-4.
-
-
-LaTeX Warning: Reference `eq:adadelta_avg_param' on page 14 undefined on input 
-line 122.
-
-
-LaTeX Warning: Reference `eq:rmsprop_avg_param' on page 14 undefined on input l
-ine 122.
-
-
-LaTeX Warning: Reference `eq:adadelta_up' on page 14 undefined on input line 12
-2.
-
-
-LaTeX Warning: Citation `adam' on page 15 undefined on input line 130.
-
-
-LaTeX Warning: Reference `eq:adam_avgs' on page 15 undefined on input line 130.
-
-
-
-LaTeX Warning: Reference `eq:adam_up' on page 15 undefined on input line 139.
-
-
-LaTeX Warning: Citation `adam' on page 15 undefined on input line 146.
-
-(optimizer_results.tex)
-
-LaTeX Warning: Citation `DBLP:journals/corr/abs-1206-5533' on page 16 undefined
- on input line 160.
-
-
-LaTeX Warning: Citation `Hinton2012' on page 16 undefined on input line 161.
-
-
-LaTeX Warning: Citation `Hinton2012' on page 16 undefined on input line 163.
-
-(batch_resultsnew.tex
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 13.
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
+gl_n.csv' has an empty column name; replacing it by '0'' on input line 15.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_nadam_he_u.csv}
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_gl_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 14.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_nadam_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 15.
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
+gl_u.csv' has an empty column name; replacing it by '0'' on input line 16.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_nadam_he_u.csv}
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 16.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_nadam_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 17.
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
+he_u.csv' has an empty column name; replacing it by '0'' on input line 17.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_nadam_he_u.csv}
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_norm.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_nadam_he_
-u.csv' has an empty column name; replacing it by '0'' on input line 18.
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
+norm.csv' has an empty column name; replacing it by '0'' on input line 18.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
+unif.csv' has an empty column name; replacing it by '0'' on input line 19.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_zero.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
+zero.csv' has an empty column name; replacing it by '0'' on input line 20.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1257,40 +1152,40 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
  []
 
 )
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_u.csv}
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl_n.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 58.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_nadam_gl_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 59.
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl
+_n.csv' has an empty column name; replacing it by '0'' on input line 57.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_nadam_gl_u.csv}
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 60.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_nadam_gl_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 61.
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl
+_u.csv' has an empty column name; replacing it by '0'' on input line 58.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_nadam_gl_u.csv}
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 62.
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_he
+_u.csv' has an empty column name; replacing it by '0'' on input line 59.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_nadam_gl_u.csv}
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_norm.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_nadam_gl_
-u.csv' has an empty column name; replacing it by '0'' on input line 63.
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_no
+rm.csv' has an empty column name; replacing it by '0'' on input line 60.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_un
+if.csv' has an empty column name; replacing it by '0'' on input line 61.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_zero.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_ze
+ro.csv' has an empty column name; replacing it by '0'' on input line 62.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1339,40 +1234,40 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
  []
 
 )
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_unif.csv}
+PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_gl_n.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 103.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_nadam_unif.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 104.
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
+_gl_n.csv' has an empty column name; replacing it by '0'' on input line 107.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_nadam_unif.csv}
+PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_gl_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 105.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_nadam_unif.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 106.
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
+_gl_u.csv' has an empty column name; replacing it by '0'' on input line 108.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_nadam_unif.csv}
+PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 107.
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
+_he_u.csv' has an empty column name; replacing it by '0'' on input line 109.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_nadam_unif.csv}
+PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_norm.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_nadam_uni
-f.csv' has an empty column name; replacing it by '0'' on input line 108.
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
+_norm.csv' has an empty column name; replacing it by '0'' on input line 110.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
+_unif.csv' has an empty column name; replacing it by '0'' on input line 111.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_zero.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
+_zero.csv' has an empty column name; replacing it by '0'' on input line 112.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1414,7 +1309,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-[18
+[13
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1424,510 +1319,124 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
  []|[]| 
  []
 
-)
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.csv}
+))
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 147.
+LaTeX Warning: Citation `DBLP:journals/corr/Ruder16' on page 14 undefined on in
+put line 44.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 148.
+LaTeX Warning: Citation `nadam_' on page 14 undefined on input line 44.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 149.
+LaTeX Warning: Reference `eq:gd_up' on page 14 undefined on input line 47.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 150.
+LaTeX Warning: Reference `chap:training' on page 14 undefined on input line 55.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 151.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.
-csv' has an empty column name; replacing it by '0'' on input line 152.
-
- [warning /pgfplots/warning/empty column name]
-(batch_init_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
- []|[]| 
+Overfull \hbox (26.41794pt too wide) in paragraph at lines 57--59
+\OT1/ptm/b/n/10.95 (Stochas-tic Gra-di-ent De-scent)\OT1/ptm/m/n/10.95 , which 
+is also known as on-line learn-ing. Com-monly $\OML/ztmcm/m/it/10.95 minibatch 
+size  \OMS/ztmcm/m/n/10.95 
  []
 
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
- []|[]| 
- []
+LaTeX Warning: Reference `eq:gd_up' on page 15 undefined on input line 60.
 
-) (batch_box_plotsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
- []|[]| 
- []
+LaTeX Warning: Reference `chap:training' on page 15 undefined on input line 60.
 
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
- []|[]| 
- []
 
-) (batch_late_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+LaTeX Warning: Citation `POLYAK19641' on page 15 undefined on input line 63.
 
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
- []|[]| 
- []
 
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+LaTeX Warning: Reference `eq:momentum' on page 15 undefined on input line 63.
 
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
- []|[]| 
- []
 
-)
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_unif.csv}
+LaTeX Warning: Reference `eq:moment_up' on page 15 undefined on input line 63.
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 191.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_SGD_unif.csv}
+LaTeX Warning: Reference `eq:nag_up' on page 15 undefined on input line 77.
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 192.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_SGD_unif.csv}
+LaTeX Warning: Citation `Duchi:2011:ASM:1953048.2021068' on page 15 undefined o
+n input line 87.
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 193.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_SGD_unif.csv}
+LaTeX Warning: Reference `eq:adagrad' on page 16 undefined on input line 90.
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 194.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_SGD_unif.csv}
+LaTeX Warning: Citation `adadelta' on page 16 undefined on input line 99.
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 195.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_SGD_unif.csv}
+LaTeX Warning: Reference `eq:adagrad' on page 16 undefined on input line 99.
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_SGD_unif.
-csv' has an empty column name; replacing it by '0'' on input line 196.
 
- [warning /pgfplots/warning/empty column name]
-(batch_init_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+LaTeX Warning: Reference `eq:adadelta_average' on page 16 undefined on input li
+ne 99.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
- []|[]| 
- []
 
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+LaTeX Warning: Reference `eq:adadelta_average' on page 16 undefined on input li
+ne 105.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
- []|[]| 
- []
 
-) (batch_box_plotsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+LaTeX Warning: Reference `eq:adadelta_avg_param' on page 16 undefined on input 
+line 105.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
- []|[]| 
- []
 
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+LaTeX Warning: Reference `eq:adadelta_up' on page 16 undefined on input line 11
+4.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
- []|[]| 
- []
 
-) (batch_late_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+LaTeX Warning: Reference `eq:adadelta_avg_param' on page 16 undefined on input 
+line 122.
 
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
- []|[]| 
- []
 
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+LaTeX Warning: Reference `eq:rmsprop_avg_param' on page 16 undefined on input l
+ine 122.
 
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
- []|[]| 
- []
 
-)
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.csv}
+LaTeX Warning: Reference `eq:adadelta_up' on page 16 undefined on input line 12
+2.
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 236.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.csv}
+LaTeX Warning: Citation `adam' on page 17 undefined on input line 130.
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 237.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.csv}
+LaTeX Warning: Reference `eq:adam_avgs' on page 17 undefined on input line 130.
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 238.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 239.
+LaTeX Warning: Reference `eq:adam_up' on page 17 undefined on input line 139.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 240.
+LaTeX Warning: Citation `adam' on page 17 undefined on input line 146.
 
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.csv}
+(optimizer_results.tex)
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.
-csv' has an empty column name; replacing it by '0'' on input line 241.
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1206-5533' on page 18 undefined
+ on input line 160.
 
- [warning /pgfplots/warning/empty column name]
-(batch_init_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
- []|[]| 
- []
+LaTeX Warning: Citation `Hinton2012' on page 18 undefined on input line 161.
 
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
- []|[]| 
- []
+LaTeX Warning: Citation `Hinton2012' on page 18 undefined on input line 163.
 
-) (batch_box_plotsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
- []|[]| 
- []
-
-) (batch_late_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
- []|[]| 
- []
-
-)
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_10B_0E_adagrad_unif.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_10B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 281.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_20B_0E_adagrad_unif.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_20B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 282.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_40B_0E_adagrad_unif.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_40B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 283.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_60B_0E_adagrad_unif.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_60B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 284.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_80B_0E_adagrad_unif.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_80B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 285.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_100B_0E_adagrad_unif.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_100B_0E_adagr
-ad_unif.csv' has an empty column name; replacing it by '0'' on input line 286.
-
- [warning /pgfplots/warning/empty column name]
-(batch_init_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
- []|[]| 
- []
-
-) (batch_box_plotsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
- []|[]| 
- []
-
-) (batch_late_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
- []|[]| 
- []
-
-)
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_10B_0E_adagrad_gl_n.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_10B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 326.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_20B_0E_adagrad_gl_n.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_20B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 327.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_40B_0E_adagrad_gl_n.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_40B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 328.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_60B_0E_adagrad_gl_n.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_60B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 329.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_80B_0E_adagrad_gl_n.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_80B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 330.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_100B_0E_adagrad_gl_n.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_100B_0E_adagr
-ad_gl_n.csv' has an empty column name; replacing it by '0'' on input line 331.
-
- [warning /pgfplots/warning/empty column name]
-(batch_init_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
- []|[]| 
- []
-
-) (batch_box_plotsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
- []|[]| 
- []
-
-) (batch_late_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
- []|[]| 
- []
-
-)
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_10B_0E_adagrad_norm.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_10B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 370.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_20B_0E_adagrad_norm.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_20B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 371.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_40B_0E_adagrad_norm.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_40B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 372.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_60B_0E_adagrad_norm.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_60B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 373.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_80B_0E_adagrad_norm.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_80B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 374.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_100B_0E_adagrad_norm.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_100B_0E_adagrad
-_norm.csv' has an empty column name; replacing it by '0'' on input line 375.
-
- [warning /pgfplots/warning/empty column name]
-(batch_init_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
- []|[]| 
- []
-
-) (batch_box_plotsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
- []|[]| 
- []
-
-) (batch_late_epochsnew.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
- []|[]| 
- []
-
-))) (Chapters/chap4.tex
+) (Chapters/chap4.tex
 Chapter 4.
 ) (Chapters/chap5.tex
 Chapter 5.
 
-LaTeX Warning: Citation `someguy2002' on page 25 undefined on input line 22.
+LaTeX Warning: Citation `someguy2002' on page 21 undefined on input line 22.
 
 
-LaTeX Warning: Citation `LastName1996' on page 25 undefined on input line 23.
+LaTeX Warning: Citation `LastName1996' on page 21 undefined on input line 23.
 
 
-LaTeX Warning: Citation `lam1994' on page 25 undefined on input line 24.
+LaTeX Warning: Citation `lam1994' on page 21 undefined on input line 24.
 
 ) (Chapters/chap6.tex
 Chapter 6.
@@ -1936,17 +1445,17 @@ No file Images/thesis-figure16.bbl.
 (Chapters/Appendix/apdxa.tex
 Appendix A.
 
-LaTeX Warning: Reference `apdx:a' on page 27 undefined on input line 6.
+LaTeX Warning: Reference `apdx:a' on page 23 undefined on input line 6.
 
 The command '\includegraphics [scale=0.40]{Images/db-deadlock}' has been optimi
 zed away. Use '/tikz/external/optimize=false' to disable this.
 
-LaTeX Warning: Reference `eqn:appsum' on page 27 undefined on input line 45.
+LaTeX Warning: Reference `eqn:appsum' on page 23 undefined on input line 45.
 
 ) (Chapters/Appendix/apdxb.tex
 Appendix B.
 
-LaTeX Warning: Reference `apdx:b' on page 29 undefined on input line 5.
+LaTeX Warning: Reference `apdx:b' on page 25 undefined on input line 5.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
@@ -1959,10 +1468,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 30153 strings out of 493334
- 767781 string characters out of 3136675
- 1420494 words of memory out of 3000000
- 32953 multiletter control sequences out of 15000+200000
+ 30019 strings out of 493334
+ 764021 string characters out of 3136675
+ 1343937 words of memory out of 3000000
+ 32915 multiletter control sequences out of 15000+200000
  36449 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,30n,126p,765b,2879s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1970,7 +1479,7 @@ Here is how much of TeX's memory you used:
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Images/thesis-figure16.pdf (1 page, 63789 bytes).
+Output written on Images/thesis-figure16.pdf (1 page, 52047 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
