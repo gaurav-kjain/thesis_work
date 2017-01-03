@@ -1,0 +1,21 @@
+\documentclass[12pt,titlepage]{article}
+\usepackage{pgffor}
+\setlength\parindent{0pt}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+\begin{document}
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u.csv}\dnwonoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_20B_0E_nadam_he_u.csv}\dnwtwoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_40B_0E_nadam_he_u.csv}\dnwfooptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_60B_0E_nadam_he_u.csv}\dnwsxoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_80B_0E_nadam_he_u.csv}\dnwegoptinit
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_100B_0E_nadam_he_u.csv}\dnwhnoptinit
+
+	\tikz
+	\foreach \x/\y/\colour in {0/0/blue, 1/1/green}
+		\x is{\x};
+	\\
+	%\node[fill=\colour] at (\x,\y) {};
+
+\end{document}

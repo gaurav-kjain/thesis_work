@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6200 64-bit) (preloaded format=pdflatex 2016.12.29)  2 JAN 2017 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  3 JAN 2017 16:40
 entering extended mode
 **\def\tikzexternalrealjob{thesis}\input{thesis}
-(thesis.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+(thesis.tex ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -18,45 +18,46 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count88
 \float@exts=\toks14
 \float@box=\box26
 \@float@everytoks=\toks15
 \@floatcapt=\box27
-) (thesis.sty ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+) (thesis.sty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.s
+ty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/05/22 v2.16c rotated objects in LaTeX
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count90
@@ -66,9 +67,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@mess@toks=\toks17
 ) (nth.sty
 Package: nth 2002/02/27
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip45
 \f@ncyO@elh=\skip46
@@ -79,14 +80,14 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@erf=\skip51
 \f@ncyO@olf=\skip52
 \f@ncyO@orf=\skip53
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count91
@@ -101,8 +102,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen111
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks18
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) ("C:\Program F
-iles\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) ("C:\Pro
+gram Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count94
 \lst@gtempboxa=\box29
 \lst@token=\toks19
@@ -115,24 +116,24 @@ iles\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@newlines=\count98
 \lst@lineno=\count99
 \lst@maxwidth=\dimen116
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count100
 \lst@skipnumbers=\count101
 \lst@framebox=\box30
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count102
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks20
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box31
 \beforetitleunit=\skip54
@@ -143,9 +144,9 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen119
 \titlewidthlast=\dimen120
 \titlewidthfirst=\dimen121
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -183,31 +184,31 @@ LaTeX Info: Redefining \hbar on input line 50.
 )
 \c@cor=\count103
 \c@thm=\count104
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen122
 \extrarowheight=\dimen123
 \NC@list=\toks22
 \extratabsurround=\skip56
 \backup@length=\skip57
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip58
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen124
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen125
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count105
@@ -247,45 +248,48 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup7
 \symAMSb=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty" ("C:\Program F
-iles\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex")
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty" ("C:\Pro
+gram Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex")
 Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty" ("C:\Progra
-m Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty" ("C:\Program Files\MiKTeX 
-2.9\tex\latex\pgf\utilities\pgfrcs.sty" ("C:\Program Files\MiKTeX 2.9\tex\gener
-ic\pgf\utilities\pgfutil-common.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty" ("C:\
+Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty" ("C:\Program F
+iles (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
+x"
 \pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen133
 \pgfutil@tempdimb=\dimen134
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
-x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
+sts.tex")) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfuti
+l-latex.def"
 \pgfutil@abb=\box34
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.te
+x"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty" ("C:\Progra
-m Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty" ("C:\Program Files\MiK
-TeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty" ("C:\
+Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty" ("C:\Progr
+am Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks29
 \pgfkeys@temptoks=\toks30
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
-x"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
+ode.tex"
 \pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen135
@@ -305,28 +309,31 @@ x"
 \t@pgf@toka=\toks32
 \t@pgf@tokb=\toks33
 \t@pgf@tokc=\toks34
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
+ef"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
+df.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
-ex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
+code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count121
 \pgfsyssoftpath@bigbuffer@items=\count122
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
-ex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
+code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -339,40 +346,43 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.t
+ex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex" ("C:\Progr
-am Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex" ("C:\Program Fil
-es\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex") ("C:\Program Files\Mi
-KTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex" ("C:
+\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex" ("C:
+\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex") ("C
+:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen143
 \pgfmath@count=\count123
 \pgfmath@box=\box35
 \pgfmath@toks=\toks35
 \pgfmath@stack@operand=\toks36
 \pgfmath@stack@operation=\toks37
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
-ic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
-hmetics.code.tex"))) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-float.code.tex"
-\c@pgfmathroundto@lastzeros=\count124
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
 tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
+nometric.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
+m.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
+rison.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
+erarithmetics.code.tex"))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\
+math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count124
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
+de.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen144
 \pgf@picmaxx=\dimen145
@@ -389,109 +399,119 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen156
 \pgf@zy=\dimen157
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
-ode.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
+ruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen158
 \pgf@path@lasty=\dimen159
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
-tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
+.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen160
 \pgf@shorten@start@additional=\dimen161
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.t
-ex"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
+de.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
 \pgf@picture@serial@count=\count125
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
-de.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
+ate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen162
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
-.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
+ations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen163
 \pgf@pt@y=\dimen164
 \pgf@pt@temp=\dimen165
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.te
-x"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
+e.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
-x"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
+ode.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
-code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
+ssing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.t
-ex"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
+de.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen166
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.te
-x"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
+e.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen167
 \pgf@sys@shading@range@num=\count126
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
-x"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
+e.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
-ex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
+code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box39
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.
-tex"
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
+de.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
-de.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
+ncy.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
-ex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
+code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-))) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.
-tex"
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
+e.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box40
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
+tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
-sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen168
 \pgf@nodesepend=\dimen169
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
-sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty" ("C:\Progr
-am Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty" ("C:\Program Files\MiK
-TeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex")) ("C:\Program Files\MiKTeX
- 2.9\tex\latex\pgf\math\pgfmath.sty" ("C:\Program Files\MiKTeX 2.9\tex\generic\
-pgf\math\pgfmath.code.tex")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\util
-ities\pgffor.code.tex"
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty" ("C:
+\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty" ("C:\Progr
+am Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex")) ("C:\Pr
+ogram Files (x86)\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty" ("C:\Program Files
+ (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")) ("C:\Program Files (
+x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen170
 \pgffor@skip=\dimen171
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.t
-ex"
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
+e.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
-code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
+dlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count127
 \pgfplotmarksize=\dimen172
@@ -510,7 +530,9 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofchildren=\count129
 \tikznumberofcurrentchild=\count130
 \tikz@fig@count=\count131
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
+e.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count132
 \pgfmatrixcurrentcolumn=\count133
@@ -518,11 +540,11 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count135
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarytopaths.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.code.tex" ("C:\
-Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscore.code.tex"
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscore.code.tex"
 \t@pgfplots@toka=\toks40
 \t@pgfplots@tokb=\toks41
 \t@pgfplots@tokc=\toks42
@@ -530,72 +552,80 @@ Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscore.code.tex"
 \c@pgfplots@coordindex=\count136
 \c@pgfplots@scanlineindex=\count137
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.
-tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\pgfplotslibrary.code.te
-x")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
-fsupp_loader.code.tex" ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\
-pgflibraryfpu.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\sys\pgfplotssysgeneric
+.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\pgfplotslibrary.c
+ode.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_loader.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfpu.cod
+e.tex")
 Package pgfplots: loading complementary arithmetics for your pgf version...
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
-fsupp_pgflibraryfpu.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
-fsupp_pgfmathfloat.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgflibraryfpu.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count138
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.code.te
-x"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotslistst
-ructure.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotslistst
-ructureext.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsarray.
-code.tex"
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.code
+.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+liststructure.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+liststructureext.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+array.code.tex"
 \c@pgfplotsarray@tmp=\count139
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsmatrix
-.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstableshared
-.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+matrix.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable
+shared.code.tex"
 \c@pgfplotstable@counta=\count140
 \t@pgfplotstable@a=\toks43
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsdeque.
-code.tex") ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsbina
-ry.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsbinary.data.cod
-e.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.verb.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplots.surf
-shading.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+deque.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsbinary.co
+de.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsbinary.da
+ta.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.verb
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplot
+s.surfshading.code.tex"
 \c@pgfplotslibrarysurf@no=\count141
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfs
-hading.pgfsys-pdftex.def")))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotscolormap.code.t
-ex" ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotscolor.code.
-tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsstackedplots.code.te
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\sys\pgflibrarypgfplots
+.surfshading.pgfsys-pdftex.def")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotscolormap.
+code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotscolor.cod
+e.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsstackedplots.c
+ode.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsplothandlers.c
+ode.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsmeshplothandle
+r.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsmeshplotimage.
+code.tex")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.scaling.code.
+tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscoordprocessin
+g.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.errorbars.cod
+e.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.markers.code.
+tex") ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsticks.co
+de.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.paths.code.te
 x")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsplothandlers.code.te
-x"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsmeshplothandler.code
-.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsmeshplotimage.code.t
-ex"))) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.scaling.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscoordprocessing.code
-.tex") ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.errorbars.co
-de.tex") ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.markers.co
-de.tex") ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsticks.code.
-tex") ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.paths.code.te
-x")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarydecorations.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code
-.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecoration
+s.code.tex"
 \pgfdecoratedcompleteddistance=\dimen180
 \pgfdecoratedremainingdistance=\dimen181
 \pgfdecoratedinputsegmentcompleteddistance=\dimen182
@@ -607,14 +637,14 @@ librarydecorations.code.tex"
 )
 \tikz@lib@dec@box=\box45
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarydecorations.pathmorphing.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibraryd
-ecorations.pathmorphing.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarydecorations.pathreplacing.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibraryd
-ecorations.pathreplacing.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgfli
+brarydecorations.pathmorphing.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgfli
+brarydecorations.pathreplacing.code.tex"))
 \pgfplots@numplots=\count143
 \pgfplots@xmin@reg=\dimen187
 \pgfplots@xmax@reg=\dimen188
@@ -623,36 +653,36 @@ ecorations.pathreplacing.code.tex"))
 \pgfplots@zmin@reg=\dimen191
 \pgfplots@zmax@reg=\dimen192
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryplotmarks.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryplotmarks.code.tex"
 File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplotmarks.cod
-e.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplotmar
+ks.code.tex"
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgfplots\pgfplotstable.sty" ("C:\Pr
-ogram Files\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex")
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgfplots\pgfplotstable.sty" (
+"C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex")
 Package: pgfplotstable 2016/08/10 v1.14 Table typesetting and Pretty-printing (
 1.14)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable.code.
-tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable.colty
-pe.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarypgfplots.pat
-chplots.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarypgfplots.col
-ormaps.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarypgfplots.sta
-tistics.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarypgfplots.ext
-ernal.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\libraries\tikzlibrary
-external.code.tex" ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmd
-s.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable
+.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable
+.coltype.code.tex")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarypgfplo
+ts.patchplots.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarypgfplo
+ts.colormaps.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarypgfplo
+ts.statistics.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarypgfplo
+ts.external.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\libraries\tikzl
+ibraryexternal.code.tex" ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdi
+ek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -661,25 +691,25 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-externalshared.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzexternalshared.code.tex"))
 Package pgfplots external lib: loading complementary code for your PGF version.
 ..
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
-fsupp_pgfcoreexternal.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2015/08/29  (rcs-revision 1.22)
 \pgfexternal@startupbox=\box46
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
-fsupp_tikzlibraryexternal.code.tex" ("C:\Program Files\MiKTeX 2.9\tex\latex\obe
-rdiek\atveryend.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_tikzlibraryexternal.code.tex" ("C:\Program Files (x86)\MiKTeX 2.9\t
+ex\latex\oberdiek\atveryend.sty"
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpg
-fsupp_tikzexternalshared.code.tex"))) ("C:\Program Files\MiKTeX 2.9\tex\latex\s
-ubfigure\subfigure.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_tikzexternalshared.code.tex"))) ("C:\Program Files (x86)\MiKTeX 2.9
+\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip61
 \subfigcapskip=\skip62
@@ -694,16 +724,17 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip65
 \subfig@bottom=\skip66
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplots.colo
-rbrewer.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarycolorbrewer.
-code.tex")) ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplot
+s.colorbrewer.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarycolorb
+rewer.code.tex")) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption
+.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen195
@@ -741,9 +772,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
 LaTeX Font Info:    ... okay on input line 103.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 103.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count149
 \scratchdimen=\dimen258
@@ -756,17 +787,17 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \MPnumerator=\count153
 \makeMPintoPDFobject=\count154
 \everyMPtoPDFconversion=\toks45
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -835,26 +866,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--105
 
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 10
 5.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
 5.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
 5.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
 5.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 105.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
@@ -883,7 +914,7 @@ LaTeX Warning: Reference `fig:nn_simple_dep' on page 1 undefined on input line
 The command '\includegraphics [scale=0.60]{Images/nn_simple_dep}' has been opti
 mized away. Use '/tikz/external/optimize=false' to disable this.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 16.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
@@ -959,16 +990,16 @@ The command '\includegraphics [scale=1.0]{Images/mnist}' has been optimized awa
 y. Use '/tikz/external/optimize=false' to disable this.
 
 LaTeX Warning: Reference `fig:cifar10_example' on page 6 undefined on input lin
-e 152.
+e 155.
 
 The command '\includegraphics [scale=0.8]{Images/cifar10}' has been optimized a
 way. Use '/tikz/external/optimize=false' to disable this.
 
 LaTeX Warning: Reference `fig:cif00_example' on page 7 undefined on input line 
-161.
+167.
 
 
-Overfull \hbox (10.65894pt too wide) in paragraph at lines 161--162
+Overfull \hbox (10.65894pt too wide) in paragraph at lines 167--168
 []\OT1/ptm/m/n/12 CIFAR100 dataset has 50000 train-ing sam-ples and 10000 test-
 ing sam-ples.It is database
  []
@@ -976,11 +1007,11 @@ ing sam-ples.It is database
 The command '\includegraphics [scale=0.8]{Images/cifar_100}' has been optimized
  away. Use '/tikz/external/optimize=false' to disable this.
 
-LaTeX Warning: Citation `chollet2015' on page 7 undefined on input line 170.
+LaTeX Warning: Citation `chollet2015' on page 7 undefined on input line 179.
 
 
 LaTeX Warning: Citation `2016arXiv160502688short' on page 7 undefined on input 
-line 170.
+line 179.
 
 ) (Chapters/chap2.tex
 Chapter 2.
@@ -1034,7 +1065,6 @@ nput line 35.
 LaTeX Warning: Citation `Glorot10understandingthe' on page 11 undefined on inpu
 t line 35.
 
-(initializers_results.tex)
 
 LaTeX Warning: Citation `DBLP:journals/corr/Ruder16' on page 12 undefined on in
 put line 44.
@@ -1080,7 +1110,7 @@ LaTeX Warning: Citation `Duchi:2011:ASM:1953048.2021068' on page 13 undefined o
 n input line 87.
 
 
-LaTeX Warning: Reference `eq:adagrad' on page 14 undefined on input line 90.
+LaTeX Warning: Reference `eq:adagrad' on page 13 undefined on input line 90.
 
 
 LaTeX Warning: Citation `adadelta' on page 14 undefined on input line 99.
@@ -1105,15 +1135,15 @@ LaTeX Warning: Reference `eq:adadelta_up' on page 14 undefined on input line 11
 4.
 
 
-LaTeX Warning: Reference `eq:adadelta_avg_param' on page 15 undefined on input 
+LaTeX Warning: Reference `eq:adadelta_avg_param' on page 14 undefined on input 
 line 122.
 
 
-LaTeX Warning: Reference `eq:rmsprop_avg_param' on page 15 undefined on input l
+LaTeX Warning: Reference `eq:rmsprop_avg_param' on page 14 undefined on input l
 ine 122.
 
 
-LaTeX Warning: Reference `eq:adadelta_up' on page 15 undefined on input line 12
+LaTeX Warning: Reference `eq:adadelta_up' on page 14 undefined on input line 12
 2.
 
 
@@ -1140,529 +1170,574 @@ LaTeX Warning: Citation `Hinton2012' on page 16 undefined on input line 161.
 
 LaTeX Warning: Citation `Hinton2012' on page 16 undefined on input line 163.
 
-(batch_results.tex
-PGFPlots: reading {ResultsNormal/mnist_FiveLayer_20B_0E_adagrad_he_u.csv}
+(batch_resultsnew.tex
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_FiveLayer_20B_0E_adagrad_h
-e_u.csv' has an empty column name; replacing it by '0'' on input line 9.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_FiveLayer_40B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_FiveLayer_40B_0E_adagrad_h
-e_u.csv' has an empty column name; replacing it by '0'' on input line 10.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u
+.csv' has an empty column name; replacing it by '0'' on input line 13.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_FiveLayer_60B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_nadam_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_FiveLayer_60B_0E_adagrad_h
-e_u.csv' has an empty column name; replacing it by '0'' on input line 11.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_FiveLayer_80B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_FiveLayer_80B_0E_adagrad_h
-e_u.csv' has an empty column name; replacing it by '0'' on input line 12.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_nadam_he_u
+.csv' has an empty column name; replacing it by '0'' on input line 14.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_FiveLayer_100B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_nadam_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_FiveLayer_100B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 13.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_FiveLayer_120B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_FiveLayer_120B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 14.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_nadam_he_u
+.csv' has an empty column name; replacing it by '0'' on input line 15.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_FiveLayer_140B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_nadam_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_FiveLayer_140B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 15.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_FiveLayer_160B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_FiveLayer_160B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 16.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_nadam_he_u
+.csv' has an empty column name; replacing it by '0'' on input line 16.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_FiveLayer_180B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_nadam_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_FiveLayer_180B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 17.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_nadam_he_u
+.csv' has an empty column name; replacing it by '0'' on input line 17.
 
  [warning /pgfplots/warning/empty column name]
-(batch_init_epochs.tex
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_nadam_he_u.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_nadam_he_
+u.csv' has an empty column name; replacing it by '0'' on input line 18.
+
+ [warning /pgfplots/warning/empty column name]
+(batch_init_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 38--38
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 75--76
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
  []|[]| 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 77.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 61.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 77.
-) (batch_box_plots.tex
+(Font)              scaled to size 9.49997pt on input line 61.
+) (batch_box_plotsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 26--26
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 49--50
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
  []|[]| 
  []
 
-) (batch_late_epochs.tex
+) (batch_late_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 37--38
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 72--73
- []|[]| 
- []
-
-) (batch_train_test_plots.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 41--41
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 58--59
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 71--71
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 84--85
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 111--112
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
  []|[]| 
  []
 
 )
-PGFPlots: reading {ResultsNormal/mnist_ThreeLayer_20B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_ThreeLayer_20B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 60.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_ThreeLayer_40B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_ThreeLayer_40B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 61.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_u
+.csv' has an empty column name; replacing it by '0'' on input line 58.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_ThreeLayer_60B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_nadam_gl_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_ThreeLayer_60B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 62.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_ThreeLayer_80B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_ThreeLayer_80B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 63.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_nadam_gl_u
+.csv' has an empty column name; replacing it by '0'' on input line 59.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_ThreeLayer_100B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_nadam_gl_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_ThreeLayer_100B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 64.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_ThreeLayer_120B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_ThreeLayer_120B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 65.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_nadam_gl_u
+.csv' has an empty column name; replacing it by '0'' on input line 60.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_ThreeLayer_140B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_nadam_gl_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_ThreeLayer_140B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 66.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_ThreeLayer_160B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_ThreeLayer_160B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 67.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_nadam_gl_u
+.csv' has an empty column name; replacing it by '0'' on input line 61.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_ThreeLayer_180B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_nadam_gl_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_ThreeLayer_180B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 68.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_nadam_gl_u
+.csv' has an empty column name; replacing it by '0'' on input line 62.
 
  [warning /pgfplots/warning/empty column name]
-(batch_init_epochs.tex
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_nadam_gl_u.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_nadam_gl_
+u.csv' has an empty column name; replacing it by '0'' on input line 63.
+
+ [warning /pgfplots/warning/empty column name]
+(batch_init_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 38--38
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 75--76
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
  []|[]| 
  []
 
-) (batch_box_plots.tex
+) (batch_box_plotsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 26--26
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 49--50
- []|[]| 
- []
-
-) (batch_late_epochs.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 37--38
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 72--73
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
  []|[]| 
  []
 
-) (batch_train_test_plots.tex
+) (batch_late_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 41--41
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 58--59
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 71--71
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 84--85
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 111--112
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
  []|[]| 
  []
 
 )
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_unif.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_adagrad_he
-_u.csv' has an empty column name; replacing it by '0'' on input line 112.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_adagrad_he
-_u.csv' has an empty column name; replacing it by '0'' on input line 113.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_nadam_unif
+.csv' has an empty column name; replacing it by '0'' on input line 103.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_nadam_unif.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_adagrad_he
-_u.csv' has an empty column name; replacing it by '0'' on input line 114.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_adagrad_he
-_u.csv' has an empty column name; replacing it by '0'' on input line 115.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_nadam_unif
+.csv' has an empty column name; replacing it by '0'' on input line 104.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_nadam_unif.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_adagrad_h
-e_u.csv' has an empty column name; replacing it by '0'' on input line 116.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_120B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_120B_0E_adagrad_h
-e_u.csv' has an empty column name; replacing it by '0'' on input line 117.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_nadam_unif
+.csv' has an empty column name; replacing it by '0'' on input line 105.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_140B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_nadam_unif.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_140B_0E_adagrad_h
-e_u.csv' has an empty column name; replacing it by '0'' on input line 118.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_160B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_160B_0E_adagrad_h
-e_u.csv' has an empty column name; replacing it by '0'' on input line 119.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_nadam_unif
+.csv' has an empty column name; replacing it by '0'' on input line 106.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/mnist_TwoLayer_180B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_nadam_unif.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_180B_0E_adagrad_h
-e_u.csv' has an empty column name; replacing it by '0'' on input line 120.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_nadam_unif
+.csv' has an empty column name; replacing it by '0'' on input line 107.
 
  [warning /pgfplots/warning/empty column name]
-(batch_init_epochs.tex
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_nadam_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_nadam_uni
+f.csv' has an empty column name; replacing it by '0'' on input line 108.
+
+ [warning /pgfplots/warning/empty column name]
+(batch_init_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 38--38
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 75--76
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
  []|[]| 
  []
 
-) (batch_box_plots.tex
+) (batch_box_plotsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 26--26
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 49--50
- []|[]| 
- []
-
-) (batch_late_epochs.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 37--38
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 72--73
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
  []|[]| 
  []
 
-) (batch_train_test_plots.tex
+) (batch_late_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 41--41
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 58--59
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 71--71
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 84--85
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 111--112
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
  []|[]| 
  []
 
 )
-PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_200B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_200B_0E_adagra
-d_he_u.csv' has an empty column name; replacing it by '0'' on input line 167.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_400B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_400B_0E_adagra
-d_he_u.csv' has an empty column name; replacing it by '0'' on input line 168.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 147.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_600B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_600B_0E_adagra
-d_he_u.csv' has an empty column name; replacing it by '0'' on input line 169.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_800B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_800B_0E_adagra
-d_he_u.csv' has an empty column name; replacing it by '0'' on input line 170.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 148.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_1000B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_1000B_0E_adagr
-ad_he_u.csv' has an empty column name; replacing it by '0'' on input line 171.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_1200B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_1200B_0E_adagr
-ad_he_u.csv' has an empty column name; replacing it by '0'' on input line 172.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 149.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_1400B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_1400B_0E_adagr
-ad_he_u.csv' has an empty column name; replacing it by '0'' on input line 173.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_1600B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_1600B_0E_adagr
-ad_he_u.csv' has an empty column name; replacing it by '0'' on input line 174.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 150.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_1800B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.csv}
 
-Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_1800B_0E_adagr
-ad_he_u.csv' has an empty column name; replacing it by '0'' on input line 175.
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 151.
 
  [warning /pgfplots/warning/empty column name]
-(batch_init_epochs.tex
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.
+csv' has an empty column name; replacing it by '0'' on input line 152.
+
+ [warning /pgfplots/warning/empty column name]
+(batch_init_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 38--38
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 75--76
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
  []|[]| 
  []
 
-) (batch_box_plots.tex
+) (batch_box_plotsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 26--26
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 49--50
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
  []|[]| 
  []
 
-) (batch_late_epochs.tex
+) (batch_late_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 37--38
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
+ []|[]| 
+ []
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
+ []|[]| 
+ []
+
+)
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_SGD_unif.c
+sv' has an empty column name; replacing it by '0'' on input line 191.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_SGD_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_SGD_unif.c
+sv' has an empty column name; replacing it by '0'' on input line 192.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_SGD_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_SGD_unif.c
+sv' has an empty column name; replacing it by '0'' on input line 193.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_SGD_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_SGD_unif.c
+sv' has an empty column name; replacing it by '0'' on input line 194.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_SGD_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_SGD_unif.c
+sv' has an empty column name; replacing it by '0'' on input line 195.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_SGD_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_SGD_unif.
+csv' has an empty column name; replacing it by '0'' on input line 196.
+
+ [warning /pgfplots/warning/empty column name]
+(batch_init_epochsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
+ []|[]| 
+ []
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
+ []|[]| 
+ []
+
+) (batch_box_plotsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
+ []|[]| 
+ []
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
+ []|[]| 
+ []
+
+) (batch_late_epochsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
+ []|[]| 
+ []
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
+ []|[]| 
+ []
+
+)
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 236.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 237.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 238.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 239.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.c
+sv' has an empty column name; replacing it by '0'' on input line 240.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.
+csv' has an empty column name; replacing it by '0'' on input line 241.
+
+ [warning /pgfplots/warning/empty column name]
+(batch_init_epochsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
+ []|[]| 
+ []
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
+ []|[]| 
+ []
+
+) (batch_box_plotsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
+ []|[]| 
+ []
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
+ []|[]| 
+ []
+
+) (batch_late_epochsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
+ []|[]| 
+ []
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
+ []|[]| 
+ []
+
+)
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_10B_0E_adagrad_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_10B_0E_adagra
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 281.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_20B_0E_adagrad_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_20B_0E_adagra
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 282.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_40B_0E_adagrad_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_40B_0E_adagra
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 283.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_60B_0E_adagrad_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_60B_0E_adagra
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 284.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_80B_0E_adagrad_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_80B_0E_adagra
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 285.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_100B_0E_adagrad_unif.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_100B_0E_adagr
+ad_unif.csv' has an empty column name; replacing it by '0'' on input line 286.
+
+ [warning /pgfplots/warning/empty column name]
+(batch_init_epochsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
+ []|[]| 
+ []
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
+ []|[]| 
+ []
+
+) (batch_box_plotsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
+ []|[]| 
+ []
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
+ []|[]| 
+ []
+
+) (batch_late_epochsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
  []|[]| 
  []
 
@@ -1674,195 +1749,169 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-[20
+[21
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]) (batch_train_test_plots.
-tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_10B_0E_adagrad_gl_n.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_10B_0E_adagra
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 326.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_20B_0E_adagrad_gl_n.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_20B_0E_adagra
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 327.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_40B_0E_adagrad_gl_n.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_40B_0E_adagra
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 328.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_60B_0E_adagrad_gl_n.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_60B_0E_adagra
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 329.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_80B_0E_adagrad_gl_n.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_80B_0E_adagra
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 330.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_100B_0E_adagrad_gl_n.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_100B_0E_adagr
+ad_gl_n.csv' has an empty column name; replacing it by '0'' on input line 331.
+
+ [warning /pgfplots/warning/empty column name]
+(batch_init_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 41--41
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 58--59
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
+ []|[]| 
+ []
+
+) (batch_box_plotsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 71--71
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
+ []|[]| 
+ []
+
+) (batch_late_epochsnew.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 84--85
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 111--112
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
  []|[]| 
  []
 
 )
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_20B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_10B_0E_adagrad_norm.csv}
+
+Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_10B_0E_adagrad_
+norm.csv' has an empty column name; replacing it by '0'' on input line 370.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_20B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_20B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 210.
+norm.csv' has an empty column name; replacing it by '0'' on input line 371.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_40B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_40B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_40B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 211.
+norm.csv' has an empty column name; replacing it by '0'' on input line 372.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_60B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_60B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_60B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 212.
+norm.csv' has an empty column name; replacing it by '0'' on input line 373.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_80B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_80B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_80B_0E_adagrad_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 213.
+norm.csv' has an empty column name; replacing it by '0'' on input line 374.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_100B_0E_adagrad_he_u.csv}
+PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_100B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_100B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 214.
+_norm.csv' has an empty column name; replacing it by '0'' on input line 375.
 
  [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_120B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_120B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 215.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_140B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_140B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 216.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_160B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_160B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 217.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_180B_0E_adagrad_he_u.csv}
-
-Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_180B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 218.
-
- [warning /pgfplots/warning/empty column name]
-(batch_init_epochs.tex
+(batch_init_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 38--38
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 31--31
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 75--76
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 59--60
  []|[]| 
  []
 
-) (batch_box_plots.tex
+) (batch_box_plotsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 26--26
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 49--50
- []|[]| 
- []
-
-) (batch_late_epochs.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 37--38
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 23--23
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (11.40424pt too wide) in paragraph at lines 72--73
+Overfull \hbox (219.82068pt too wide) in paragraph at lines 43--44
  []|[]| 
  []
 
-) (batch_train_test_plots.tex
+) (batch_late_epochsnew.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 41--41
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 58--59
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 29--30
  []|[]| 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 71--71
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 84--85
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (217.08319pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Overfull \hbox (219.82068pt too wide) in paragraph at lines 111--112
+Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
  []|[]| 
  []
 
@@ -1909,18 +1958,18 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 30177 strings out of 493329
- 765834 string characters out of 3139053
- 2089544 words of memory out of 3000000
- 32992 multiletter control sequences out of 15000+200000
- 36978 words of font info for 93 fonts, out of 3000000 for 9000
+ 30147 strings out of 493334
+ 767605 string characters out of 3136675
+ 1619603 words of memory out of 3000000
+ 32947 multiletter control sequences out of 15000+200000
+ 36449 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,30n,126p,765b,2881s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on Images/thesis-figure41.pdf (1 page, 161717 bytes).
+ 93i,30n,126p,765b,2879s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Images/thesis-figure41.pdf (1 page, 91481 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
