@@ -42,11 +42,11 @@
 \contentsline {figure}{\numberline {FC3.34}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{37}
 \contentsline {figure}{\numberline {FC3.35}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{37}
 \contentsline {figure}{\numberline {FC3.36}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{38}
-\contentsline {figure}{\numberline {FC3.37}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{38}
+\contentsline {figure}{\numberline {FC3.37}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{39}
 \contentsline {figure}{\numberline {FC3.38}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{39}
-\contentsline {figure}{\numberline {FC3.39}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{39}
+\contentsline {figure}{\numberline {FC3.39}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{40}
 \contentsline {figure}{\numberline {FC3.40}{\ignorespaces \textit {Different batch results for starting 15 epochs }\relax }}{40}
-\contentsline {figure}{\numberline {FC3.41}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{40}
+\contentsline {figure}{\numberline {FC3.41}{\ignorespaces \textit {accuracy and error plot for full training epochs}\relax }}{41}
 \contentsline {figure}{\numberline {FC3.42}{\ignorespaces \textit {Different batch results for later epochs}\relax }}{41}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -71,67 +71,67 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for later epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for later epochs}}}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initiaNITCIFAR10}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error for initial epochs}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy for initial epcohs}}}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Error variation}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Accuracy variation}}}{47}

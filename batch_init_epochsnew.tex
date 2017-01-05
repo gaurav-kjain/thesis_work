@@ -15,17 +15,17 @@
 			tick label style = {scale=0.8},%
 			] %
 			\addplot+[mark=pentagon*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwonoptinit};
-			\addlegendentry{1xc};%	
+			\addlegendentry{\legdnwonoptinit};%	
 			\addplot+[mark=ball] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwtwoptinit};
-			\addlegendentry{2xc};%	
+			\addlegendentry{\legdnwtwoptinit};%	
 			\addplot+[mark=10-pointed star] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwfooptinit};
-			\addlegendentry{4xc};%							
+			\addlegendentry{\legdnwfooptinit};%							
 			\addplot+[mark=triangle*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwsxoptinit};
-			\addlegendentry{6xc};%							
+			\addlegendentry{\legdnwsxoptinit};%							
 			\addplot+[mark=halfcircle*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwegoptinit};
-			\addlegendentry{8xc};%							
+			\addlegendentry{\legdnwegoptinit};%							
 			\addplot+[mark=otimes*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwhnoptinit};
-			\addlegendentry{10xc};%
+			\addlegendentry{\legdnwhnoptinit};%
 			\end{axis} %
 			\end{tikzpicture}
 		}&
@@ -43,17 +43,17 @@
 			tick label style = {scale=0.8},%
 			] %
 			\addplot+[mark=pentagon*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwonoptinit};
-			\addlegendentry{1xc};%	
+			\addlegendentry{\legdnwonoptinit};%	
 			\addplot+[mark=ball] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwtwoptinit};
-			\addlegendentry{2xc};%	
+			\addlegendentry{\legdnwtwoptinit};%	
 			\addplot+[mark=10-pointed star] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwfooptinit};
-			\addlegendentry{4xc};%							
+			\addlegendentry{\legdnwfooptinit};%							
 			\addplot+[mark=triangle*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwsxoptinit};
-			\addlegendentry{6xc};%							
+			\addlegendentry{\legdnwsxoptinit};%							
 			\addplot+[mark=halfcircle*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwegoptinit};
-			\addlegendentry{8xc};%							
+			\addlegendentry{\legdnwegoptinit};%							
 			\addplot+[mark=otimes*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwhnoptinit};
-			\addlegendentry{10xc};%
+			\addlegendentry{\legdnwhnoptinit};%
 			\end{axis} %
 			\end{tikzpicture}
 		}\\%

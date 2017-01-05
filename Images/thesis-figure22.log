@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  3 JAN 2017 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  5 JAN 2017 13:53
 entering extended mode
 **\def\tikzexternalrealjob{thesis}\input{thesis}
 (thesis.tex ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
@@ -1069,37 +1069,37 @@ t line 35.
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
-gl_n.csv' has an empty column name; replacing it by '0'' on input line 15.
+gl_n.csv' has an empty column name; replacing it by '0'' on input line 23.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_gl_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
-gl_u.csv' has an empty column name; replacing it by '0'' on input line 16.
+gl_u.csv' has an empty column name; replacing it by '0'' on input line 24.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
-he_u.csv' has an empty column name; replacing it by '0'' on input line 17.
+he_u.csv' has an empty column name; replacing it by '0'' on input line 25.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
-norm.csv' has an empty column name; replacing it by '0'' on input line 18.
+norm.csv' has an empty column name; replacing it by '0'' on input line 26.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
-unif.csv' has an empty column name; replacing it by '0'' on input line 19.
+unif.csv' has an empty column name; replacing it by '0'' on input line 27.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_zero.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_
-zero.csv' has an empty column name; replacing it by '0'' on input line 20.
+zero.csv' has an empty column name; replacing it by '0'' on input line 28.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1155,37 +1155,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl
-_n.csv' has an empty column name; replacing it by '0'' on input line 57.
+_n.csv' has an empty column name; replacing it by '0'' on input line 65.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl
-_u.csv' has an empty column name; replacing it by '0'' on input line 58.
+_u.csv' has an empty column name; replacing it by '0'' on input line 66.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_he
-_u.csv' has an empty column name; replacing it by '0'' on input line 59.
+_u.csv' has an empty column name; replacing it by '0'' on input line 67.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_no
-rm.csv' has an empty column name; replacing it by '0'' on input line 60.
+rm.csv' has an empty column name; replacing it by '0'' on input line 68.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_un
-if.csv' has an empty column name; replacing it by '0'' on input line 61.
+if.csv' has an empty column name; replacing it by '0'' on input line 69.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_zero.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_ze
-ro.csv' has an empty column name; replacing it by '0'' on input line 62.
+ro.csv' has an empty column name; replacing it by '0'' on input line 70.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1237,37 +1237,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
-_gl_n.csv' has an empty column name; replacing it by '0'' on input line 107.
+_gl_n.csv' has an empty column name; replacing it by '0'' on input line 115.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_gl_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
-_gl_u.csv' has an empty column name; replacing it by '0'' on input line 108.
+_gl_u.csv' has an empty column name; replacing it by '0'' on input line 116.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
-_he_u.csv' has an empty column name; replacing it by '0'' on input line 109.
+_he_u.csv' has an empty column name; replacing it by '0'' on input line 117.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
-_norm.csv' has an empty column name; replacing it by '0'' on input line 110.
+_norm.csv' has an empty column name; replacing it by '0'' on input line 118.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
-_unif.csv' has an empty column name; replacing it by '0'' on input line 111.
+_unif.csv' has an empty column name; replacing it by '0'' on input line 119.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad_zero.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_FiveLayer_20B_0E_adagrad
-_zero.csv' has an empty column name; replacing it by '0'' on input line 112.
+_zero.csv' has an empty column name; replacing it by '0'' on input line 120.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1425,37 +1425,37 @@ LaTeX Warning: Citation `Hinton2012' on page 18 undefined on input line 163.
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 13.
+.csv' has an empty column name; replacing it by '0'' on input line 19.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_nadam_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 14.
+.csv' has an empty column name; replacing it by '0'' on input line 20.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_nadam_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 15.
+.csv' has an empty column name; replacing it by '0'' on input line 21.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_nadam_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 16.
+.csv' has an empty column name; replacing it by '0'' on input line 22.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_nadam_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_nadam_he_u
-.csv' has an empty column name; replacing it by '0'' on input line 17.
+.csv' has an empty column name; replacing it by '0'' on input line 23.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_nadam_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_nadam_he_
-u.csv' has an empty column name; replacing it by '0'' on input line 18.
+u.csv' has an empty column name; replacing it by '0'' on input line 24.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1511,37 +1511,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 58.
+.csv' has an empty column name; replacing it by '0'' on input line 64.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_nadam_gl_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 59.
+.csv' has an empty column name; replacing it by '0'' on input line 65.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_nadam_gl_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 60.
+.csv' has an empty column name; replacing it by '0'' on input line 66.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_nadam_gl_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 61.
+.csv' has an empty column name; replacing it by '0'' on input line 67.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_nadam_gl_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_nadam_gl_u
-.csv' has an empty column name; replacing it by '0'' on input line 62.
+.csv' has an empty column name; replacing it by '0'' on input line 68.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_nadam_gl_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_nadam_gl_
-u.csv' has an empty column name; replacing it by '0'' on input line 63.
+u.csv' has an empty column name; replacing it by '0'' on input line 69.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1593,37 +1593,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 103.
+.csv' has an empty column name; replacing it by '0'' on input line 109.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_nadam_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 104.
+.csv' has an empty column name; replacing it by '0'' on input line 110.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_nadam_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 105.
+.csv' has an empty column name; replacing it by '0'' on input line 111.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_nadam_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 106.
+.csv' has an empty column name; replacing it by '0'' on input line 112.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_nadam_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_nadam_unif
-.csv' has an empty column name; replacing it by '0'' on input line 107.
+.csv' has an empty column name; replacing it by '0'' on input line 113.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_nadam_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_nadam_uni
-f.csv' has an empty column name; replacing it by '0'' on input line 108.
+f.csv' has an empty column name; replacing it by '0'' on input line 114.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1675,37 +1675,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 147.
+sv' has an empty column name; replacing it by '0'' on input line 153.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 148.
+sv' has an empty column name; replacing it by '0'' on input line 154.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 149.
+sv' has an empty column name; replacing it by '0'' on input line 155.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 150.
+sv' has an empty column name; replacing it by '0'' on input line 156.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 151.
+sv' has an empty column name; replacing it by '0'' on input line 157.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.
-csv' has an empty column name; replacing it by '0'' on input line 152.
+csv' has an empty column name; replacing it by '0'' on input line 158.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1757,37 +1757,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 191.
+sv' has an empty column name; replacing it by '0'' on input line 197.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_SGD_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 192.
+sv' has an empty column name; replacing it by '0'' on input line 198.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_SGD_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 193.
+sv' has an empty column name; replacing it by '0'' on input line 199.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_SGD_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 194.
+sv' has an empty column name; replacing it by '0'' on input line 200.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_SGD_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_SGD_unif.c
-sv' has an empty column name; replacing it by '0'' on input line 195.
+sv' has an empty column name; replacing it by '0'' on input line 201.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_SGD_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_SGD_unif.
-csv' has an empty column name; replacing it by '0'' on input line 196.
+csv' has an empty column name; replacing it by '0'' on input line 202.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1839,37 +1839,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 236.
+sv' has an empty column name; replacing it by '0'' on input line 242.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_20B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 237.
+sv' has an empty column name; replacing it by '0'' on input line 243.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_40B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 238.
+sv' has an empty column name; replacing it by '0'' on input line 244.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_60B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 239.
+sv' has an empty column name; replacing it by '0'' on input line 245.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_80B_0E_SGD_he_u.c
-sv' has an empty column name; replacing it by '0'' on input line 240.
+sv' has an empty column name; replacing it by '0'' on input line 246.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/mnist_TwoLayer_100B_0E_SGD_he_u.
-csv' has an empty column name; replacing it by '0'' on input line 241.
+csv' has an empty column name; replacing it by '0'' on input line 247.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -1921,37 +1921,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_10B_0E_adagrad_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_10B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 281.
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 287.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_20B_0E_adagrad_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_20B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 282.
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 288.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_40B_0E_adagrad_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_40B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 283.
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 289.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_60B_0E_adagrad_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_60B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 284.
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 290.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_80B_0E_adagrad_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_80B_0E_adagra
-d_unif.csv' has an empty column name; replacing it by '0'' on input line 285.
+d_unif.csv' has an empty column name; replacing it by '0'' on input line 291.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_100B_0E_adagrad_unif.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_100B_0E_adagr
-ad_unif.csv' has an empty column name; replacing it by '0'' on input line 286.
+ad_unif.csv' has an empty column name; replacing it by '0'' on input line 292.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -2003,37 +2003,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_10B_0E_adagrad_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_10B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 326.
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 332.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_20B_0E_adagrad_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_20B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 327.
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 333.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_40B_0E_adagrad_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_40B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 328.
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 334.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_60B_0E_adagrad_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_60B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 329.
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 335.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_80B_0E_adagrad_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_80B_0E_adagra
-d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 330.
+d_gl_n.csv' has an empty column name; replacing it by '0'' on input line 336.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_100B_0E_adagrad_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_ThreeLayer_100B_0E_adagr
-ad_gl_n.csv' has an empty column name; replacing it by '0'' on input line 331.
+ad_gl_n.csv' has an empty column name; replacing it by '0'' on input line 337.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -2085,37 +2085,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_10B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_10B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 370.
+norm.csv' has an empty column name; replacing it by '0'' on input line 376.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_20B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_20B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 371.
+norm.csv' has an empty column name; replacing it by '0'' on input line 377.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_40B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_40B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 372.
+norm.csv' has an empty column name; replacing it by '0'' on input line 378.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_60B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_60B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 373.
+norm.csv' has an empty column name; replacing it by '0'' on input line 379.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_80B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_80B_0E_adagrad_
-norm.csv' has an empty column name; replacing it by '0'' on input line 374.
+norm.csv' has an empty column name; replacing it by '0'' on input line 380.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_100B_0E_adagrad_norm.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar10_TwoLayer_100B_0E_adagrad
-_norm.csv' has an empty column name; replacing it by '0'' on input line 375.
+_norm.csv' has an empty column name; replacing it by '0'' on input line 381.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -2167,37 +2167,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_adagrad_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_adagra
-d_he_u.csv' has an empty column name; replacing it by '0'' on input line 416.
+d_he_u.csv' has an empty column name; replacing it by '0'' on input line 422.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_200B_0E_adagrad_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_200B_0E_adagra
-d_he_u.csv' has an empty column name; replacing it by '0'' on input line 417.
+d_he_u.csv' has an empty column name; replacing it by '0'' on input line 423.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_400B_0E_adagrad_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_400B_0E_adagra
-d_he_u.csv' has an empty column name; replacing it by '0'' on input line 418.
+d_he_u.csv' has an empty column name; replacing it by '0'' on input line 424.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_600B_0E_adagrad_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_600B_0E_adagra
-d_he_u.csv' has an empty column name; replacing it by '0'' on input line 419.
+d_he_u.csv' has an empty column name; replacing it by '0'' on input line 425.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_800B_0E_adagrad_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_800B_0E_adagra
-d_he_u.csv' has an empty column name; replacing it by '0'' on input line 420.
+d_he_u.csv' has an empty column name; replacing it by '0'' on input line 426.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_1000B_0E_adagrad_he_u.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_1000B_0E_adagr
-ad_he_u.csv' has an empty column name; replacing it by '0'' on input line 421.
+ad_he_u.csv' has an empty column name; replacing it by '0'' on input line 427.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -2249,37 +2249,37 @@ Overfull \hbox (11.40424pt too wide) in paragraph at lines 56--57
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl
-_n.csv' has an empty column name; replacing it by '0'' on input line 460.
+_n.csv' has an empty column name; replacing it by '0'' on input line 466.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_200B_0E_SGD_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_200B_0E_SGD_gl
-_n.csv' has an empty column name; replacing it by '0'' on input line 461.
+_n.csv' has an empty column name; replacing it by '0'' on input line 467.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_400B_0E_SGD_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_400B_0E_SGD_gl
-_n.csv' has an empty column name; replacing it by '0'' on input line 462.
+_n.csv' has an empty column name; replacing it by '0'' on input line 468.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_600B_0E_SGD_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_600B_0E_SGD_gl
-_n.csv' has an empty column name; replacing it by '0'' on input line 463.
+_n.csv' has an empty column name; replacing it by '0'' on input line 469.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_800B_0E_SGD_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_800B_0E_SGD_gl
-_n.csv' has an empty column name; replacing it by '0'' on input line 464.
+_n.csv' has an empty column name; replacing it by '0'' on input line 470.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_1000B_0E_SGD_gl_n.csv}
 
 Package pgfplots Warning: Table 'ResultsNormal/cifar100_TwoLayer_1000B_0E_SGD_g
-l_n.csv' has an empty column name; replacing it by '0'' on input line 465.
+l_n.csv' has an empty column name; replacing it by '0'' on input line 471.
 
  [warning /pgfplots/warning/empty column name]
 (batch_init_epochsnew.tex
@@ -2332,13 +2332,13 @@ Chapter 4.
 ) (Chapters/chap5.tex
 Chapter 5.
 
-LaTeX Warning: Citation `someguy2002' on page 27 undefined on input line 22.
+LaTeX Warning: Citation `someguy2002' on page 29 undefined on input line 22.
 
 
-LaTeX Warning: Citation `LastName1996' on page 27 undefined on input line 23.
+LaTeX Warning: Citation `LastName1996' on page 29 undefined on input line 23.
 
 
-LaTeX Warning: Citation `lam1994' on page 27 undefined on input line 24.
+LaTeX Warning: Citation `lam1994' on page 29 undefined on input line 24.
 
 ) (Chapters/chap6.tex
 Chapter 6.
@@ -2347,17 +2347,17 @@ No file Images/thesis-figure22.bbl.
 (Chapters/Appendix/apdxa.tex
 Appendix A.
 
-LaTeX Warning: Reference `apdx:a' on page 29 undefined on input line 6.
+LaTeX Warning: Reference `apdx:a' on page 31 undefined on input line 6.
 
 The command '\includegraphics [scale=0.40]{Images/db-deadlock}' has been optimi
 zed away. Use '/tikz/external/optimize=false' to disable this.
 
-LaTeX Warning: Reference `eqn:appsum' on page 29 undefined on input line 45.
+LaTeX Warning: Reference `eqn:appsum' on page 31 undefined on input line 45.
 
 ) (Chapters/Appendix/apdxb.tex
 Appendix B.
 
-LaTeX Warning: Reference `apdx:b' on page 31 undefined on input line 5.
+LaTeX Warning: Reference `apdx:b' on page 33 undefined on input line 5.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
@@ -2370,10 +2370,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 30274 strings out of 493334
- 771409 string characters out of 3136675
- 1434146 words of memory out of 3000000
- 32983 multiletter control sequences out of 15000+200000
+ 30280 strings out of 493334
+ 771499 string characters out of 3136675
+ 1436817 words of memory out of 3000000
+ 32989 multiletter control sequences out of 15000+200000
  36449 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,30n,126p,765b,2879s stack positions out of 5000i,500n,10000p,200000b,50000s
