@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  5 JAN 2017 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  5 JAN 2017 15:56
 entering extended mode
 **\def\tikzexternalrealjob{thesis}\input{thesis}
 (thesis.tex ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
@@ -2376,7 +2376,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
 Here is how much of TeX's memory you used:
  30250 strings out of 493334
  770837 string characters out of 3136675
- 1414675 words of memory out of 3000000
+ 1414662 words of memory out of 3000000
  32959 multiletter control sequences out of 15000+200000
  36449 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2385,7 +2385,7 @@ Here is how much of TeX's memory you used:
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Images/thesis-figure30.pdf (1 page, 44655 bytes).
+Output written on Images/thesis-figure30.pdf (1 page, 44887 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

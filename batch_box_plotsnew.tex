@@ -10,7 +10,7 @@
 			xtick={1,2,3,4,5,6},%
 			xticklabels={1,2, 4, 6, 8, 10},%
 			height=4cm,%
-			width=3cm,%
+			width=6cm,%
 			] %
 			\addplot+ [boxplot,fill=cyan!10!white] table [x expr=1,y ={val_loss}] {\dnwonoptinit};							
 			\addplot+ [boxplot,fill=green!20!white] table [x expr=2,y ={val_loss}] {\dnwtwoptinit};
@@ -30,7 +30,7 @@
 			xlabel={\textit{batch size [in multiple of classes]}}, %
 			ylabel={\textit{accuracy}}, %
 			height=4cm,%
-			width=3cm,%
+			width=6cm,%
 			] %
 			\addplot+ [boxplot,fill=cyan!10!white] table [x expr=1,y ={val_acc}] {\dnwonoptinit};							
 			\addplot+ [boxplot,fill=green!20!white] table [x expr=2,y ={val_acc}] {\dnwtwoptinit};

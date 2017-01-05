@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  5 JAN 2017 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  5 JAN 2017 16:37
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1341,8 +1341,7 @@ u.csv' has an empty column name; replacing it by '0'' on input line 24.
 ) (batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure22' is up-to-date. ======
 ===== Image 'Images/thesis-figure23' is up-to-date. ======
-) [25 <./Images/thesis-figure18.pdf> <./Images/thesis-figure19.pdf> <./Images/t
-hesis-figure20.pdf> <./Images/thesis-figure21.pdf>]
+[25 <./Images/thesis-figure18.pdf> <./Images/thesis-figure19.pdf>])
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_gl_u.csv}
 
 
@@ -1383,14 +1382,15 @@ u.csv' has an empty column name; replacing it by '0'' on input line 69.
 (batch_init_epochsnew.tex
 ===== Image 'Images/thesis-figure24' is up-to-date. ======
 ===== Image 'Images/thesis-figure25' is up-to-date. ======
-) (batch_box_plotsnew.tex
+[26 <./Images/thesis-figure20.pdf> <./Images/thesis-figure21.pdf> <./Images/the
+sis-figure22.pdf> <./Images/thesis-figure23.pdf>]) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure26' is up-to-date. ======
 ===== Image 'Images/thesis-figure27' is up-to-date. ======
 ) (batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure28' is up-to-date. ======
 ===== Image 'Images/thesis-figure29' is up-to-date. ======
-[26 <./Images/thesis-figure22.pdf> <./Images/thesis-figure23.pdf> <./Images/the
-sis-figure24.pdf> <./Images/thesis-figure25.pdf>])
+) [27 <./Images/thesis-figure24.pdf> <./Images/thesis-figure25.pdf> <./Images/t
+hesis-figure26.pdf> <./Images/thesis-figure27.pdf>]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_nadam_unif.csv}
 
 
@@ -1431,14 +1431,14 @@ f.csv' has an empty column name; replacing it by '0'' on input line 114.
 (batch_init_epochsnew.tex
 ===== Image 'Images/thesis-figure30' is up-to-date. ======
 ===== Image 'Images/thesis-figure31' is up-to-date. ======
-[27 <./Images/thesis-figure26.pdf> <./Images/thesis-figure27.pdf> <./Images/the
-sis-figure28.pdf> <./Images/thesis-figure29.pdf>]) (batch_box_plotsnew.tex
+) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure32' is up-to-date. ======
 ===== Image 'Images/thesis-figure33' is up-to-date. ======
-) (batch_late_epochsnew.tex
+[28 <./Images/thesis-figure28.pdf> <./Images/thesis-figure29.pdf>])
+(batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure34' is up-to-date. ======
 ===== Image 'Images/thesis-figure35' is up-to-date. ======
-) [28 <./Images/thesis-figure30.pdf> <./Images/thesis-figure31.pdf> <./Images/t
+) [29 <./Images/thesis-figure30.pdf> <./Images/thesis-figure31.pdf> <./Images/t
 hesis-figure32.pdf> <./Images/thesis-figure33.pdf>]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.csv}
 
@@ -1483,11 +1483,12 @@ csv' has an empty column name; replacing it by '0'' on input line 158.
 ) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure38' is up-to-date. ======
 ===== Image 'Images/thesis-figure39' is up-to-date. ======
-) (batch_late_epochsnew.tex
+[30 <./Images/thesis-figure34.pdf> <./Images/thesis-figure35.pdf>])
+(batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure40' is up-to-date. ======
 ===== Image 'Images/thesis-figure41' is up-to-date. ======
-[29 <./Images/thesis-figure34.pdf> <./Images/thesis-figure35.pdf> <./Images/the
-sis-figure36.pdf> <./Images/thesis-figure37.pdf>])
+) [31 <./Images/thesis-figure36.pdf> <./Images/thesis-figure37.pdf> <./Images/t
+hesis-figure38.pdf> <./Images/thesis-figure39.pdf>]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_unif.csv}
 
 
@@ -1528,14 +1529,14 @@ csv' has an empty column name; replacing it by '0'' on input line 202.
 (batch_init_epochsnew.tex
 ===== Image 'Images/thesis-figure42' is up-to-date. ======
 ===== Image 'Images/thesis-figure43' is up-to-date. ======
-[30 <./Images/thesis-figure38.pdf> <./Images/thesis-figure39.pdf> <./Images/the
-sis-figure40.pdf> <./Images/thesis-figure41.pdf>]) (batch_box_plotsnew.tex
+) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure44' is up-to-date. ======
 ===== Image 'Images/thesis-figure45' is up-to-date. ======
-) (batch_late_epochsnew.tex
+[32 <./Images/thesis-figure40.pdf> <./Images/thesis-figure41.pdf>])
+(batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure46' is up-to-date. ======
 ===== Image 'Images/thesis-figure47' is up-to-date. ======
-) [31 <./Images/thesis-figure42.pdf> <./Images/thesis-figure43.pdf> <./Images/t
+) [33 <./Images/thesis-figure42.pdf> <./Images/thesis-figure43.pdf> <./Images/t
 hesis-figure44.pdf> <./Images/thesis-figure45.pdf>]
 PGFPlots: reading {ResultsNormal/mnist_TwoLayer_10B_0E_SGD_he_u.csv}
 
@@ -1580,11 +1581,12 @@ csv' has an empty column name; replacing it by '0'' on input line 247.
 ) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure50' is up-to-date. ======
 ===== Image 'Images/thesis-figure51' is up-to-date. ======
-) (batch_late_epochsnew.tex
+[34 <./Images/thesis-figure46.pdf> <./Images/thesis-figure47.pdf>])
+(batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure52' is up-to-date. ======
 ===== Image 'Images/thesis-figure53' is up-to-date. ======
-[32 <./Images/thesis-figure46.pdf> <./Images/thesis-figure47.pdf> <./Images/the
-sis-figure48.pdf> <./Images/thesis-figure49.pdf>])
+) [35 <./Images/thesis-figure48.pdf> <./Images/thesis-figure49.pdf> <./Images/t
+hesis-figure50.pdf> <./Images/thesis-figure51.pdf>]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_10B_0E_adagrad_unif.csv}
 
 
@@ -1625,14 +1627,14 @@ ad_unif.csv' has an empty column name; replacing it by '0'' on input line 292.
 (batch_init_epochsnew.tex
 ===== Image 'Images/thesis-figure54' is up-to-date. ======
 ===== Image 'Images/thesis-figure55' is up-to-date. ======
-[33 <./Images/thesis-figure50.pdf> <./Images/thesis-figure51.pdf> <./Images/the
-sis-figure52.pdf> <./Images/thesis-figure53.pdf>]) (batch_box_plotsnew.tex
+) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure56' is up-to-date. ======
 ===== Image 'Images/thesis-figure57' is up-to-date. ======
-) (batch_late_epochsnew.tex
+[36 <./Images/thesis-figure52.pdf> <./Images/thesis-figure53.pdf>])
+(batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure58' is up-to-date. ======
 ===== Image 'Images/thesis-figure59' is up-to-date. ======
-) [34 <./Images/thesis-figure54.pdf> <./Images/thesis-figure55.pdf> <./Images/t
+) [37 <./Images/thesis-figure54.pdf> <./Images/thesis-figure55.pdf> <./Images/t
 hesis-figure56.pdf> <./Images/thesis-figure57.pdf>]
 PGFPlots: reading {ResultsNormal/cifar10_ThreeLayer_10B_0E_adagrad_gl_n.csv}
 
@@ -1677,11 +1679,12 @@ ad_gl_n.csv' has an empty column name; replacing it by '0'' on input line 337.
 ) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure62' is up-to-date. ======
 ===== Image 'Images/thesis-figure63' is up-to-date. ======
-) (batch_late_epochsnew.tex
+[38 <./Images/thesis-figure58.pdf> <./Images/thesis-figure59.pdf>])
+(batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure64' is up-to-date. ======
 ===== Image 'Images/thesis-figure65' is up-to-date. ======
-[35 <./Images/thesis-figure58.pdf> <./Images/thesis-figure59.pdf> <./Images/the
-sis-figure60.pdf> <./Images/thesis-figure61.pdf>])
+) [39 <./Images/thesis-figure60.pdf> <./Images/thesis-figure61.pdf> <./Images/t
+hesis-figure62.pdf> <./Images/thesis-figure63.pdf>]
 PGFPlots: reading {ResultsNormal/cifar10_TwoLayer_10B_0E_adagrad_norm.csv}
 
 
@@ -1722,14 +1725,14 @@ _norm.csv' has an empty column name; replacing it by '0'' on input line 381.
 (batch_init_epochsnew.tex
 ===== Image 'Images/thesis-figure66' is up-to-date. ======
 ===== Image 'Images/thesis-figure67' is up-to-date. ======
-[36 <./Images/thesis-figure62.pdf> <./Images/thesis-figure63.pdf> <./Images/the
-sis-figure64.pdf> <./Images/thesis-figure65.pdf>]) (batch_box_plotsnew.tex
+) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure68' is up-to-date. ======
 ===== Image 'Images/thesis-figure69' is up-to-date. ======
-) (batch_late_epochsnew.tex
+[40 <./Images/thesis-figure64.pdf> <./Images/thesis-figure65.pdf>])
+(batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure70' is up-to-date. ======
 ===== Image 'Images/thesis-figure71' is up-to-date. ======
-) [37 <./Images/thesis-figure66.pdf> <./Images/thesis-figure67.pdf> <./Images/t
+) [41 <./Images/thesis-figure66.pdf> <./Images/thesis-figure67.pdf> <./Images/t
 hesis-figure68.pdf> <./Images/thesis-figure69.pdf>]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_adagrad_he_u.csv}
 
@@ -1774,11 +1777,11 @@ ad_he_u.csv' has an empty column name; replacing it by '0'' on input line 427.
 ) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure74' is up-to-date. ======
 ===== Image 'Images/thesis-figure75' is up-to-date. ======
-[38 <./Images/thesis-figure70.pdf> <./Images/thesis-figure71.pdf>])
+[42 <./Images/thesis-figure70.pdf> <./Images/thesis-figure71.pdf>])
 (batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure76' is up-to-date. ======
 ===== Image 'Images/thesis-figure77' is up-to-date. ======
-) [39 <./Images/thesis-figure72.pdf> <./Images/thesis-figure73.pdf> <./Images/t
+) [43 <./Images/thesis-figure72.pdf> <./Images/thesis-figure73.pdf> <./Images/t
 hesis-figure74.pdf> <./Images/thesis-figure75.pdf>]
 PGFPlots: reading {ResultsNormal/cifar100_TwoLayer_100B_0E_SGD_gl_n.csv}
 
@@ -1823,18 +1826,18 @@ l_n.csv' has an empty column name; replacing it by '0'' on input line 471.
 ) (batch_box_plotsnew.tex
 ===== Image 'Images/thesis-figure80' is up-to-date. ======
 ===== Image 'Images/thesis-figure81' is up-to-date. ======
-) (batch_late_epochsnew.tex
+[44 <./Images/thesis-figure76.pdf> <./Images/thesis-figure77.pdf>])
+(batch_late_epochsnew.tex
 ===== Image 'Images/thesis-figure82' is up-to-date. ======
 ===== Image 'Images/thesis-figure83' is up-to-date. ======
-[40 <./Images/thesis-figure76.pdf> <./Images/thesis-figure77.pdf> <./Images/the
-sis-figure78.pdf> <./Images/thesis-figure79.pdf>]))) [41 <./Images/thesis-figur
-e80.pdf> <./Images/thesis-figure81.pdf> <./Images/thesis-figure82.pdf> <./Image
-s/thesis-figure83.pdf>]
+) [45 <./Images/thesis-figure78.pdf> <./Images/thesis-figure79.pdf> <./Images/t
+hesis-figure80.pdf> <./Images/thesis-figure81.pdf>])) [46 <./Images/thesis-figu
+re82.pdf> <./Images/thesis-figure83.pdf>]
 \openout2 = `Chapters/chap4.aux'.
 
  (Chapters/chap4.tex
 Chapter 4.
-) [42
+) [47
 
 
 
@@ -1844,9 +1847,9 @@ Chapter 4.
  (Chapters/chap5.tex
 Chapter 5.
 
-LaTeX Warning: Citation `someguy2002' on page 43 undefined on input line 22.
+LaTeX Warning: Citation `someguy2002' on page 48 undefined on input line 22.
 
-) [43
+) [48
 
 
 
@@ -1855,7 +1858,7 @@ LaTeX Warning: Citation `someguy2002' on page 43 undefined on input line 22.
 
  (Chapters/chap6.tex
 Chapter 6.
-) [44
+) [49
 
 
 
@@ -1865,30 +1868,30 @@ Missing character: There is no § in font ptmr7t!
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no ™ in font ptmri7t!
- [45
+ [50
 
 
-]) [46]
+]) [51]
 \openout2 = `Chapters/Appendix/apdxa.aux'.
 
  (Chapters/Appendix/apdxa.tex
 Appendix A.
-<Images/db-deadlock.pdf, id=1253, 666.49pt x 395.4775pt>
+<Images/db-deadlock.pdf, id=1268, 666.49pt x 395.4775pt>
 File: Images/db-deadlock.pdf Graphic file (type pdf)
 
 <use Images/db-deadlock.pdf>
 Package pdftex.def Info: Images/db-deadlock.pdf used on input line 17.
 (pdftex.def)             Requested size: 266.59128pt x 158.18819pt.
- [47
+ [52
 
 
- <./Images/db-deadlock.pdf>]) [48]
+ <./Images/db-deadlock.pdf>]) [53]
 \openout2 = `Chapters/Appendix/apdxb.aux'.
 
 
 (Chapters/Appendix/apdxb.tex
 Appendix B.
-) [49
+) [54
 
 
 
@@ -1910,7 +1913,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
 Here is how much of TeX's memory you used:
  29889 strings out of 493334
  757508 string characters out of 3136675
- 1401754 words of memory out of 3000000
+ 1401753 words of memory out of 3000000
  32413 multiletter control sequences out of 15000+200000
  66089 words of font info for 141 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1930,9 +1933,9 @@ pe1/urw/helvetic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (64 pages, 4134201 bytes).
+Output written on thesis.pdf (69 pages, 4144804 bytes).
 PDF statistics:
- 1316 PDF objects out of 1440 (max. 8388607)
+ 1332 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  468 words of extra memory for PDF output out of 10000 (max. 10000000)
 

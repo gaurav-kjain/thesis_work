@@ -3,4 +3,15 @@
 
 \chapter{Training the Network}\label{chap:training}
 
-In this chapter network training is studied in detail. We will see available methods of training the network, their working algorithms and stopping criterion.
+For converging to favorable network configuration, network undergoes training. Training consist of network seeing the training data, adjust its parameters to minimize the training loss and finally settling to global possible minimum loss. However this situation is ideal, because in simple convex setting achieving the minimum is not possible as it requires exact small updates to settle to the minimum loss point.
+
+Neural network training has tougher challenges to deal than simple convex setting and hence there is no set methodology how to go about tuning the parameters to attain minimum loss possible, or how training should proceed so that network gets attracted in basin of global minimum and not stuck in local minima or saddle points.
+
+These are few challenges which need to dealt with in training neural networks
+\begin{enumerate}
+	\item High dimensionality
+	\item Non convex and existence of saddle points
+	\item Vanishing gradients
+    \item Hyper parameters search space
+    \item Slow convergence
+\end{enumerate}
