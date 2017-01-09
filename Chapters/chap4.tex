@@ -5,6 +5,13 @@
 
 For converging to favorable network configuration, network undergoes training. Training consist of network seeing the training data, adjust its parameters to minimize the training loss and finally settling to global possible minimum loss. However this situation is ideal, because in simple convex setting achieving the minimum is not possible as it requires exact small updates to settle to the minimum loss point.
 
+The goal of training is to adjust network parameters in such a way its error performance on samples outside training data remains within the small bound, so it should generalize well. The probability of difference of expected training error and expected testing error bigger than $\epsilon$ is bounded by $\delta$, see \ref{eq:testlossbound}
+
+\begin{equation}\label{eq:testlossbound}
+Pr(E[\mathcal{L}(training)]-E[\mathcal{L}(testing)] > \epsilon) < \delta 
+\end{equation}
+
+
 Neural network training has tougher challenges to deal than simple convex setting and hence there is no set methodology how to go about tuning the parameters to attain minimum loss possible, or how training should proceed so that network gets attracted in basin of global minimum and not stuck in local minima or saddle points.
 
 These are few challenges which need to dealt with in training neural networks
@@ -13,5 +20,11 @@ These are few challenges which need to dealt with in training neural networks
 	\item Non convex and existence of saddle points
 	\item Vanishing gradients
     \item Hyper parameters search space
-    \item Slow convergence
+    \item stopping criterion
 \end{enumerate}
+
+\section{High Dimensionality}
+
+Neural networks often have very high dimensions which is also known as network parameters. Also along with high dimension of network, training data size is huge and it directly affects convergence time. Also high dimensionality affects generalization capability of the network and they tend to over fit to training samples. Generally drop out, regularizers are used to reduce over-fitting Apart from this it needs a huge amount of data for high generalization performance of the network.
+
+Network tend to under fit if parameters are not enough to get the full input feature representation. Balancing out number of network parameters for efficient representation is also very essential, which is not further examined in this work.

@@ -1,0 +1,33 @@
+\providecommand{\legdnwonoptinit}{Efficient batch}
+\providecommand{\legdnwtwoptinit}{Random batch}
+
+\subsubsection{CIFAR100}
+\textbf{Two Layer, opti=adamax, batch size=1xc}
+
+\pgfplotstableclear{\dnwonoptinitcare}
+\pgfplotstableclear{\dnwtwoptinitnormal}
+
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_carebatch_TwoLayer_10B_0E_adamax_gl_u.csv}\dnwonoptinitcare
+\pgfplotstableread[col sep = comma]{ResultsNormal/mnist_TwoLayer_10B_0E_adagrad_gl_u.csv}\dnwtwoptinitnormal
+
+\renewcommand{\initerr}{Error for initial epochs}
+\renewcommand{\initacc}{Accuracy for initial epcohs}
+\renewcommand{\lateerr}{Error for later epochs}
+\renewcommand{\lateacc}{Accuracy for later epochs}
+\renewcommand{\boxerr}{Error variation}
+\renewcommand{\boxacc}{Accuracy variation}
+
+\renewcommand{\initfigtitle}{Different batch results for starting 15 epochs }
+\renewcommand{\initcaption}{The initial epochs seen shows that 2x batch size(2x batch size=2*number of classes) started with the lowest error(a) as well as best accuracy(b), surprisingly 8x batch size started quite well inspite of less network updates in an epoch.
+	Then till 15 epochs it is mixed results and no batch size cannot be singled out as a best performer.}
+
+\renewcommand{\latefigtitle}{Different batch results for later epochs}
+\renewcommand{\latecaption}{8x started well but in late epochs it could not sustain the start, Another good perfromance is shown by 10x which has reached quite good accuracy but its error become high and entered overfitting regime, 2x performance in error as well as accuracy side remain quite robust.}
+
+\renewcommand{\boxerraccfigtitle}{accuracy and error plot for full training epochs}
+\renewcommand{\boxerracccaption}{4x perform quite well as error remain with in small range, but on high side, 16x and 18x have low error regime as their minimum error but their variance range is on higher side, 10x shows quite good accuracy and has its maximum value is maximum among all other batch sizes, while its error had high variance than 2x. 2x is consistent in both low error with less vairance as well as accuracy. Low error makes 2x a robust classifier.}
+
+\renewcommand{\trtscaption}{2x shows quite good performance}
+\renewcommand	{\ymaxlim}{0.99}
+
+\input{efficient_init_epoch.tex}
