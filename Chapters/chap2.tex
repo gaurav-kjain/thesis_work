@@ -21,10 +21,67 @@ Other types of networks are Radial Basis Network(RBN), Gated Recurrent Unit(GRU)
 The perceptron has been introduced to handle perceptual recognition, generalization and hence the name Perceptron. In this landmark paper Rosenblatt nicely maps the neurons development in human being to perceptron.
 For instance connection of nervous system are assumed as random and in neural nets at start mostly random initializations are used.
 The original system has said to be capable of plasticity, which allows other neuron output to change over time seeing stimulus applied. And if same or similar stimuli is seen large number of times, will tend to form pathways to same sets of responding cells. This almost sums up the current neural nets, however the network construction, random initializations may differ a lot. 
+The perceptron is shown in fig \ref{fig:percep}
+\begin{figure}[H]
+	\centering
+	\subfigure{
+		\centering
+		\includegraphics[scale=0.75]{Images/perceptron}
+	}
+	\caption{\label{fig:percep} Perceptron}
+	\medskip
+	\small
+	\begin{flushleft}
+		\textit{Regarded as starting point of neural network evolution perceptron is simplest of neural networks. It has  no hidden layers, just inputs with weights and bias term added together with non linear transformation or activation function produces output. Perceptron was limited in their power due to their non-ability to handle non linear target functions, such as XOR.}
+	\end{flushleft}
+	
+\end{figure}
+
+
+\subsection{CNN}
+CNN famously known as Convolutional Neural Network are revolutionary architecture which has provided significant results in many image based learning tasks. CNN takes advantage of neighborhood relationships between data and so image data is natural choice for these networks. see figure \ref{fig:cnn}.
+
+
+\begin{figure}[H]
+	\centering
+	\subfigure{
+		\centering
+		\includegraphics[scale=0.75]{Images/cnn}
+	}
+	\caption{\label{fig:cnn} CNN}
+	\medskip
+	\small
+	\begin{flushleft}
+		\textit{CNN composition is shown in figure \ref{fig:cnn}, This is most common network configuration, however there are many different variations suggested from time to time. CNN works well on data which is having neighborhood relationship such as image has spatial relationship between pixels. Input undergoes convolution to get low level representation with shared weights for the convolution. Generally convolution filter size is 3x3. Immediately after convolution layer there would be pooling layer, which reduces the data representation further. Deepness comes by repeating these layers. At last flatten layer reduces representation to number of classes which activates one of its neuron or provide the output probabilities of image belonging to output class vector.}
+	\end{flushleft}
+	
+\end{figure}
+
 
 \subsection{RNN}
 Recurrent neural nets are having connections to same hidden layer neurons, and thus capable of storing time series data or feedback to be used with next set of input in sequence.
 
+\begin{figure}[H]
+\centering
+\subfigure{
+	\centering
+	\includegraphics[scale=0.75]{Images/rnn}
+}
+\caption{\label{fig:rnn} RNN}
+\medskip
+\small
+\begin{flushleft}
+	\textit{Recurrent neural network are useful in case of sequential data, where data at current instance is dependent on previous data instances. Most popular RNN models are language models, where it generates probabilities of existence of any sentence based on underlying language it trained with. Another important application of RNNs are generative models, where in given one word it generates next word. This is possible by RNN having feedback to same neuron or hidden layers. The feedback give this network immense power as unfolding this network it will act as several deep layers which is dependent on RNN ability to store previous information.}
+\end{flushleft}
+
+\end{figure}
+
+
+\subsection{LSTM}
+Long Short Term Memory(LSTM) is one type of RNN network which uses LSTM cells.
+
+\subsection{Auto Encoders}
+Auto encoders helps in learning representation by using input as output and just keep encoded layers and grow network as deep as possible. Auto encoder has delivered significant results for various tasks including image classification tasks. Auto encoder LSTM is variant of LSTM with Auto encoding capabilities.
 
 
 

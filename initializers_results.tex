@@ -2,12 +2,12 @@
 
 In this section we analyze the effect of different initializers based on our experiment results.
 
-\providecommand{\legdnwonoptinit}{glorot normal}
-\providecommand{\legdnwtwoptinit}{glorot uniform}
-\providecommand{\legdnwfooptinit}{he unifrom}
-\providecommand{\legdnwsxoptinit}{normal}
-\providecommand{\legdnwegoptinit}{uniform}
-\providecommand{\legdnwhnoptinit}{zero}
+\renewcommand{\legdnwonoptinit}{glorot normal}
+\renewcommand{\legdnwtwoptinit}{glorot uniform}
+\renewcommand{\legdnwfooptinit}{he unifrom}
+\renewcommand{\legdnwsxoptinit}{normal}
+\renewcommand{\legdnwegoptinit}{uniform}
+\renewcommand{\legdnwhnoptinit}{zero}
 
 
 \subsubsection{CIFAR100}
@@ -26,24 +26,24 @@ In this section we analyze the effect of different initializers based on our exp
 \pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_norm.csv}\dnwsxoptinit
 \pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_unif.csv}\dnwegoptinit
 \pgfplotstableread[col sep = comma]{ResultsNormal/cifar100_TwoLayer_100B_0E_nadam_zero.csv}\dnwhnoptinit
-\providecommand{\initerr}{Error for initial epochs:INIT}
-\providecommand{\initacc}{Accuracy for initial epcohs}
-\providecommand{\lateerr}{Error for later epochs}
-\providecommand{\lateacc}{Accuracy for later epochs}
-\providecommand{\boxerr}{Error variation}
-\providecommand{\boxacc}{Accuracy variation}
+\renewcommand{\initerr}{Error for initial epochs:INIT}
+\renewcommand{\initacc}{Accuracy for initial epcohs}
+\renewcommand{\lateerr}{Error for later epochs}
+\renewcommand{\lateacc}{Accuracy for later epochs}
+\renewcommand{\boxerr}{Error variation}
+\renewcommand{\boxacc}{Accuracy variation}
 
-\providecommand{\initfigtitle}{Different batch results for starting 15 epochs }
-\providecommand{\initcaption}{to write}
+\renewcommand{\initfigtitle}{Different batch results for starting 15 epochs }
+\renewcommand{\initcaption}{to write}
 
-\providecommand{\latefigtitle}{Different batch results for later epochs}
-\providecommand{\latecaption}{to write}
+\renewcommand{\latefigtitle}{Different batch results for later epochs}
+\renewcommand{\latecaption}{to write}
 
-\providecommand{\boxerraccfigtitle}{accuracy and error plot for full training epochs}
-\providecommand{\boxerracccaption}{to write}
+\renewcommand{\boxerraccfigtitle}{accuracy and error plot for full training epochs}
+\renewcommand{\boxerracccaption}{to write}
 
-\providecommand{\trtscaption}{to write}
-\providecommand	{\ymaxlim}{0.65}
+\renewcommand{\trtscaption}{to write}
+\renewcommand	{\ymaxlim}{0.65}
 
 \input{batch_init_epochsnew.tex}
 \input{batch_box_plotsnew.tex}

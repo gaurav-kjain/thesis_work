@@ -28,3 +28,22 @@ These are few challenges which need to dealt with in training neural networks
 Neural networks often have very high dimensions which is also known as network parameters. Also along with high dimension of network, training data size is huge and it directly affects convergence time. Also high dimensionality affects generalization capability of the network and they tend to over fit to training samples. Generally drop out, regularizers are used to reduce over-fitting Apart from this it needs a huge amount of data for high generalization performance of the network.
 
 Network tend to under fit if parameters are not enough to get the full input feature representation. Balancing out number of network parameters for efficient representation is also very essential, which is not further examined in this work.
+
+\section{Non Convexity}
+Non linear transformation of neural networks make it very difficult optimization problem, apart from high dimensionality. Non convexity comes with its own challenges such as existence of more than one minima and saddle points.
+
+\section{Vanishing gradients}
+Deep learning has issue of vanishing gradient, which is, while back propagating gradients from output to input they start becoming smaller and smaller,so as number of layers increases this phenomenon led to saturated weights specially near to input layers. This takes training to almost standstill.
+Once it comes to stand still it is even harder to understand what causes training to stop, is it because of local minima or vanishing gradients.
+
+\section{Hyper Parameters}
+Hyper-parameters are the most challenging part of neural network optimization. THis is due to the fact that number of parameters and their range is so high that search space becomes so huge that trying exhaustive possibilities are almost intractable. So we left only with random selection for these parameters. Some recommendations of these values are made from time to time and they almost become default choices for training routines now a days.
+
+In our work we performed almost exhaustive set of experiments and suggested parameters,which performed really well. This could well serve as starting point for any deep learning problems.
+
+\section{Stopping criterion}
+It is very hard to determine when to stop the training or how many iterations are enough, it is always said that we should train network long enough, how long is long, is impossible to define and so heuristics are always used for deciding it.
+This could well be one of the hyperparameters as number of epochs determine when the training should stop. In our work we just used early stopping, which is automatic stopping when performance is not improving.
+ 
+
+

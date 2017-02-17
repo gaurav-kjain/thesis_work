@@ -15,9 +15,9 @@
 			tick label style = {scale=0.8},%
 			] %
 			\addplot+[mark=pentagon*] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwonoptinitcare};
-			\addlegendentry{\legdnwonoptinit};%	
+			\addlegendentry{\legdnwonoptinitcare};%	
 			\addplot+[mark=ball] table[x expr=\coordindex , y={val_loss}, col sep=comma] {\dnwtwoptinitnormal};
-			\addlegendentry{\legdnwtwoptinit};%	
+			\addlegendentry{\legdnwtwoptinitnormal};%	
 			\end{axis} %
 			\end{tikzpicture}
 		}&
@@ -35,9 +35,9 @@
 			tick label style = {scale=0.8},%
 			] %
 			\addplot+[mark=pentagon*] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwonoptinitcare};
-			\addlegendentry{\legdnwonoptinit};%	
+			\addlegendentry{\legdnwonoptinitcare};%	
 			\addplot+[mark=ball] table[x expr=\coordindex , y={val_acc}, col sep=comma] {\dnwtwoptinitnormal};
-			\addlegendentry{\legdnwtwoptinit};%
+			\addlegendentry{\legdnwtwoptinitnormal};%
 			\end{axis} %
 			\end{tikzpicture}
 		}\\%

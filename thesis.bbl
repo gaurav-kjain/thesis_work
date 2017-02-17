@@ -97,15 +97,4 @@ Geoffrey~E. Hinton.
   pages 599--619.
 \newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2012.
 
-\bibitem{LastName1996}
-FirstName LastName, FirstName~I. LastName, and F.N. {LastName Jr.}
-\newblock Conference paper {MUN} title.
-\newblock In {\em Proceedings of the Conference of Sample Conferences}, pages
-  100--110, Apr. 1996.
-
-\bibitem{lam1994}
-Leslie Lamport.
-\newblock {\em \LaTeX: A Document Preparation System}.
-\newblock Addison-Wesley Publishing Company, second edition, 1994.
-
 \end{thebibliography}

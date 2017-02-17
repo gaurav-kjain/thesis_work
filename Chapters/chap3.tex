@@ -1,5 +1,5 @@
 % chap3.tex
-
+\input{initializers_variables.tex}
 \chapter{Hyper-Parameters}\label{chap:hyperparams}
 \noindent This chapter introduces hyper-parameters. They are not directly related to the machine learning algorithm parameters, but responsible for overall algorithm evolution. For example learning rate dictates the update strength per iteration, choice of initializer can lead to slow or fast convergence, choice of optimizers provide way to update learning parameters($\theta$).
 
@@ -144,7 +144,7 @@ E[\nabla\theta^2]_t=\rho E[\nabla\theta^2]_{t-1}+(1-\rho){\nabla\theta_t}^2,
 \end{equation}
 
 \noindent \textbf{Adamax}\cite{adam} uses same updates as Adam other than it uses $l_{\infty}$ norm instead of $l_2$ norm.
-\input{optimizer_results.tex}
+%\input{optimizer_results.tex}
 
 \section{Number of Epochs}
 

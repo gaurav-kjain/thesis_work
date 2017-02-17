@@ -5,15 +5,27 @@
 Computer vision , Natural language and Speech processing tasks have scaled to the next level of accuracies using these networks.
 \paragraph{Structure:} The core structure of Neural network is the Neurons arranged in a layer manner also known as hidden layer and stack of these layers with interconnected Neurons provides depth to the network. This arrangement of layers is known as network architecture. A simple Neural Network is shown in Figure~\ref{fig:nn_simple_dep}.
 Several networks are proposed till date for the range of machine learning tasks.[REFERENCES:TBD]
-\paragraph{Training:} Network architecture remains passive till it is trained and parameters of the networks are estimated for the desired level of prediction performance on data samples outside training data set, also known as Generalization performance.
+\paragraph{Training:} Network architecture remains passive until it gets trained for the specific task for which network parameters are estimated for the desired level of prediction performance on data samples outside training data set, also known as Generalization performance.
 The most important part is the training strategy which encompass choosing the hyper-parameters to intermediate updates along with learning algorithm.
 The number of hyper-parameters termed as annoying knobs to be adjusted [Bengio 2012: Practical recommendations] and famously known as nuisance parameters are quite high. On top of this range of choices for these hyper-parameters make exhaustive search impractical.
-Once these parameters are chosen, training can be proceed and the algorithm, which is more often than not is Stochastic gradient descent [References] along with Back propagation [Reference: Rumelhart] as a default choice allows network to evolve from untrained to train network.Training stops as per stopping criterion.
+Once these parameters are chosen, training can be proceed and the algorithm, which is more often than not is Stochastic gradient descent [References] along with Back propagation [Reference: Rumelhart] as a default choice allows network to evolve from untrained to train network. Each training process has stopping criterion, which is more intuition than rules which guides training progress including stopping point.
 
-\begin{figure}
+\begin{figure}[H]
+\centering
+	\subfigure{
 	\centering
-	\includegraphics[scale=0.60]{Images/nn_simple_dep}
-	\caption{\label{fig:nn_simple_dep} A Simple Neural Network} 
+	\includegraphics[scale=0.50]{Images/nn_simple_dep}
+}
+	\caption{\label{fig:nn_simple_dep} A Simple Neural Network}
+	\medskip
+	\small
+	\begin{flushleft}
+	\textit{Four layer fully connected Neural network is shown in \ref{fig:nn_simple_dep}. All Neurons in successive layers are connected to each other, while within layer they are not connected.\\ 
+	Input feeds the input features and propagation of features undergoes transformation or encoding as it passes via layers. 
+	Intermediate layers are known as hidden layers. Output layer gets the final output in desired format. \\
+	In case of classification task it could be class vector representing class probabilities, in case of regression task it is the numerical value and in case of unsupervised task it can be input vector itself. Network parameters gets updated via famous technique called back propagation formulating this problem as optimization problem in which loss occured is minimized iteratively.}
+	\end{flushleft}
+	 
 \end{figure}
 
 
@@ -25,10 +37,22 @@ Considering all these background the \textbf{Training Life Cycle} of DNN's has 3
 	\item Network updates during training and stopping criterion
 \end{enumerate}
 
-\begin{figure}
+\begin{figure}[H]
+\centering
+	\subfigure{
 	\centering
-	\includegraphics[scale=0.60]{Images/dnn_training_lifecycle}
+	\includegraphics[scale=0.50]{Images/dnn_training_lifecycle}
+}
 	\caption{\label{fig:dnn_lifecycle} DNN Training Lifecycle} 
+	\medskip
+	\small
+	\begin{flushleft}
+	\textit{Training lifecycle is shown in \ref{fig:dnn_lifecycle}. Firstly network choice needs to be made, which would be type of network such as CNN, LSTM, ANN, RNN, Auto encoder and so on, once network type is finalized network configuration has to be decided, such as number of layers, number of neurons in layers, their interconnections, filter size in case of CNN and so on.\\
+	secondly comes choice of hyperparameters, which starts with some standard initial choices and during learning gets tuned for better performance.\\
+Lastly choice of learning algorithm and update rule for back propagation is to be decided, Here stopping criterion also is crucial which governs the network final learnt parameters.\\
+This also allows fine tuning of network structure or hyperparameters as more and more knowledge about underlying data and its performance in current selected environment is known.}
+	\end{flushleft}
+		
 \end{figure}
 \section{Chapters Organization}
 This study is divided into 6 chapters, Chapter 2, discusses \textbf{Network architecture}, Chapter 3 discusses \textbf{Hyper-parameters}, Chapter 4 discusses \textbf{Training the Network}, Chapter 5 discusses the \textbf{Insights and Recommendations} from this study. Chapter 6 \textbf{concludes} and poses some \textbf{open questions} for future work.
@@ -177,3 +201,8 @@ CIFAR100 dataset has 50000 training samples and 10000 testing samples.It is data
 
 \subsection{Software}
 Keras \cite{chollet2015} is mainly used for almost all the experiments. Theano \cite{2016arXiv160502688short} is used as main backend for Keras.Python is used as main programming language.
+
+%%%%%%%%%%%%%INITIALIZE VARIABLES%%%%%%%%%%%%%%%%%%
+\input{init_variable.tex}
+
+

@@ -2,12 +2,12 @@
 \contentsline {chapter}{Acknowledgements}{v}
 \contentsline {chapter}{List of Publications}{vi}
 \contentsline {chapter}{List of Figures}{xi}
-\contentsline {chapter}{List of Tables}{xiv}
-\contentsline {chapter}{List of Abbreviations}{xv}
+\contentsline {chapter}{List of Tables}{xv}
+\contentsline {chapter}{List of Abbreviations}{xvi}
 \contentsline {chapter}{\numberline {1}Introduction and Overview}{1}
 \contentsline {paragraph}{Structure:}{1}
 \contentsline {paragraph}{Training:}{1}
-\contentsline {section}{\numberline {1.1}Chapters Organization}{4}
+\contentsline {section}{\numberline {1.1}Chapters Organization}{3}
 \contentsline {subsection}{\numberline {1.1.1}Network types}{4}
 \contentsline {subsection}{\numberline {1.1.2}Hyper-parameters}{5}
 \contentsline {subsection}{\numberline {1.1.3}Training the network}{5}
@@ -25,29 +25,33 @@
 \contentsline {chapter}{\numberline {2}Network Structure}{11}
 \contentsline {section}{\numberline {2.1}Networks}{11}
 \contentsline {subsection}{\numberline {2.1.1}Perceptron}{12}
-\contentsline {subsection}{\numberline {2.1.2}RNN}{12}
-\contentsline {chapter}{\numberline {3}Hyper-Parameters}{13}
-\contentsline {section}{\numberline {3.1}Initializer}{14}
-\contentsline {subsection}{\numberline {3.1.1}Experiments}{15}
-\contentsline {subsubsection}{\numberline {3.1.1.1}CIFAR100}{15}
-\contentsline {subsubsection}{\numberline {3.1.1.2}CIFAR-10}{18}
-\contentsline {subsubsection}{\numberline {3.1.1.3}MNIST}{19}
-\contentsline {section}{\numberline {3.2}Optimizers}{20}
-\contentsline {subsection}{\numberline {3.2.1}Experiments}{23}
-\contentsline {section}{\numberline {3.3}Number of Epochs}{23}
-\contentsline {section}{\numberline {3.4}Batch Size}{24}
-\contentsline {subsection}{\numberline {3.4.1}Experiments}{25}
-\contentsline {subsubsection}{\numberline {3.4.1.1}MNIST}{25}
-\contentsline {subsubsection}{\numberline {3.4.1.2}CIFAR10}{36}
-\contentsline {subsubsection}{\numberline {3.4.1.3}CIFAR100}{42}
-\contentsline {chapter}{\numberline {4}Training the Network}{47}
-\contentsline {section}{\numberline {4.1}High Dimensionality}{48}
-\contentsline {chapter}{\numberline {5}Recommendations}{49}
-\contentsline {section}{\numberline {5.1}Experiments Process}{49}
-\contentsline {subsubsection}{\numberline {5.1.0.1}initializers}{49}
-\contentsline {section}{\numberline {5.2}Efficient batch results}{49}
-\contentsline {subsubsection}{\numberline {5.2.0.1}CIFAR100}{49}
-\contentsline {chapter}{\numberline {6}Conclusions}{51}
-\contentsline {chapter}{\numberline {A}Appendix: How to Add an Appendix}{54}
-\contentsline {section}{\numberline {A.1}Equations}{54}
-\contentsline {chapter}{\numberline {B}Appendix: How to Add Another One}{56}
+\contentsline {subsection}{\numberline {2.1.2}CNN}{13}
+\contentsline {subsection}{\numberline {2.1.3}RNN}{13}
+\contentsline {subsection}{\numberline {2.1.4}LSTM}{14}
+\contentsline {subsection}{\numberline {2.1.5}Auto Encoders}{14}
+\contentsline {chapter}{\numberline {3}Hyper-Parameters}{15}
+\contentsline {section}{\numberline {3.1}Initializer}{16}
+\contentsline {subsection}{\numberline {3.1.1}Experiments}{17}
+\contentsline {subsubsection}{\numberline {3.1.1.1}CIFAR100}{17}
+\contentsline {subsubsection}{\numberline {3.1.1.2}CIFAR-10}{20}
+\contentsline {subsubsection}{\numberline {3.1.1.3}MNIST}{21}
+\contentsline {section}{\numberline {3.2}Optimizers}{22}
+\contentsline {section}{\numberline {3.3}Number of Epochs}{25}
+\contentsline {section}{\numberline {3.4}Batch Size}{26}
+\contentsline {subsection}{\numberline {3.4.1}Experiments}{26}
+\contentsline {subsubsection}{\numberline {3.4.1.1}MNIST}{26}
+\contentsline {subsubsection}{\numberline {3.4.1.2}CIFAR10}{38}
+\contentsline {subsubsection}{\numberline {3.4.1.3}CIFAR100}{44}
+\contentsline {chapter}{\numberline {4}Training the Network}{51}
+\contentsline {section}{\numberline {4.1}High Dimensionality}{52}
+\contentsline {section}{\numberline {4.2}Non Convexity}{52}
+\contentsline {section}{\numberline {4.3}Vanishing gradients}{53}
+\contentsline {section}{\numberline {4.4}Hyper Parameters}{53}
+\contentsline {section}{\numberline {4.5}Stopping criterion}{53}
+\contentsline {chapter}{\numberline {5}Recommendations}{54}
+\contentsline {section}{\numberline {5.1}Experiments Process}{54}
+\contentsline {subsection}{\numberline {5.1.1}batch size}{54}
+\contentsline {chapter}{\numberline {6}Conclusions}{56}
+\contentsline {chapter}{\numberline {A}Appendix: How to Add an Appendix}{59}
+\contentsline {section}{\numberline {A.1}Equations}{59}
+\contentsline {chapter}{\numberline {B}Appendix: How to Add Another One}{61}
